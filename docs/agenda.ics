@@ -1,0 +1,772 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//La Châtaigne//Agenda militant Limousin//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:La Châtaigne · agenda militant Limousin
+X-WR-CALDESC:l’Agenda militant Limousin qui ne manque pas de piquants !
+X-WR-TIMEZONE:Europe/Paris
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Paris
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:2026-11-05-tulle-blocus-du-lycee-edmond-perri@agenda-la-chataigne
+DTSTAMP:20261108T000000Z
+LAST-MODIFIED:20261108T000000Z
+DTSTART;TZID=Europe/Paris:20261105T070000
+DTEND;TZID=Europe/Paris:20261105T090000
+SUMMARY:Blocus du lycée Edmond Perrier
+LOCATION:Lycée Edmond Perrier (et lycée d’Arsonval)\, Tulle
+DESCRIPTION:Blocus du lycée Edmond Perrier à partir de 7h\, puis manifest
+ ation à la tour administrative (informations à venir). Nos revendication
+ s sont légitimes\, elles concernent tout le monde !\n\nInfos pratiques :\
+ n- Des classes salubres\n- Plus de profs et d’AESH\n- Des conditions de 
+ travail adaptées\n- Non à Parcoursup\n- Non à la répression policière
+ \n- Non à la dérive autoritaire\n- Soutien aux lycéens défavorisés
+CATEGORIES:Mobilisations
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-05-gueret-greve-blocage-ravitaillement@agenda-la-chataigne
+DTSTAMP:20261108T000000Z
+LAST-MODIFIED:20261108T000000Z
+DTSTART;TZID=Europe/Paris:20261105T100000
+DTEND;TZID=Europe/Paris:20261105T120000
+SUMMARY:Grève · Blocage · Ravitaillement · Manifestation
+LOCATION:Place de la Mairie\, Guéret
+DESCRIPTION:Appel à toutes les Creusois·es\, les boomeureuses\, retraité
+ ·es\, quadra\, cinquantenaires et celleux qui sont sur la dernière ligne
+  droite (mais sur la voix de gauche) de la retraite : ramenons notre boule
+  pour des battles d’aura (bataille de charisme)\, le 5 novembre (et le s
+ ix / seven 6/7)\, à Guéret\, devant la mairie à 10h.\n\nMontrons que no
+ us en avons dans notre fiac (fesse) XXL (et pas BBL)\, la génération bab
+ y boom\, X\, Y et Z. Gagnons des avancées sociales pour toutes les autres
+  générations après nous\, qui aujourd’hui nous donnent une bonne leç
+ on sur le merdier que nous leur laissons.\n\nOn fait caca (*3) sur Bardell
+ a\, on fait pipi (*3) sur les nazis\, on fait popo (*3) sur les fashos.\n\
+ n*Message à caractère inter-générationnel
+CATEGORIES:Mobilisations
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-05-uzerche-greve-generale-festive-joyeu@agenda-la-chataigne
+DTSTAMP:20261108T000000Z
+LAST-MODIFIED:20261108T000000Z
+DTSTART;TZID=Europe/Paris:20261105T100000
+DTEND;TZID=Europe/Paris:20261105T120000
+SUMMARY:Grève générale festive\, joyeuse\, solidaire et en colère · Ca
+ ntine populaire
+LOCATION:Parking de la papeterie\, Uzerche
+DESCRIPTION:Rendez-vous à 10h au parking de la papeterie. Cantine populair
+ e : châtaignes grillées et soupe au caillou\, avec atelier créatif mili
+ tant et espace enfant.\n\nProgramme :\n- 10h : Rendez-vous\, parking de la
+  papeterie\n- 11h : Préparation de la soupe : ramène tes légumes et ton
+  couteau !\n- Après la soupe : Atelier créatif militant : création de p
+ ancartes\, de choré\, répétition de slogans pour les manifs ? Partage d
+ e techniques et réflexes anti-répression ? Temps de discussion. Échange
+ s autour de l’initiative citoyenne de Chamberet autour de l’adaptation
+  au changement climatique ? Nos envies à Uzerche ?\n- Après la soupe : E
+ space enfant\, notamment si les instit sont en grève. Apporte des jeux\, 
+ des livres\, de quoi dessiner. Besoin d’adultes pour se relayer.\n\nInfo
+ s pratiques :\n- Tout le monde peut ramener : coussins\, tapis\, chaises e
+ t tables pliables\n- Cartons\, draps\, peinture\, marqueurs\n- Bidons d’
+ eau\, bassines\, éponge\, savon\, sacs poubelle\n- Petits bois et cagette
+ s pour les braseros\n- De la monnaie pour contribuer
+CATEGORIES:Mobilisations
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-05-limoges-greve-blocage-ravitaillement@agenda-la-chataigne
+DTSTAMP:20261108T000000Z
+LAST-MODIFIED:20261108T000000Z
+DTSTART;TZID=Europe/Paris:20261105T103000
+DTEND;TZID=Europe/Paris:20261105T123000
+SUMMARY:Grève · Blocage · Ravitaillement · Manifestation
+LOCATION:Carrefour Tourny\, Limoges
+DESCRIPTION:Journée de grève intersyndicale : grève\, blocage\, ravitail
+ lement\, manifestation.
+CATEGORIES:Mobilisations
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-05-tulle-greve-blocage-ravitaillement@agenda-la-chataigne
+DTSTAMP:20261108T000000Z
+LAST-MODIFIED:20261108T000000Z
+DTSTART;TZID=Europe/Paris:20261105T103000
+DTEND;TZID=Europe/Paris:20261105T123000
+SUMMARY:Grève · Blocage · Ravitaillement · Manifestation
+LOCATION:Place Brigouleix\, Tulle
+DESCRIPTION:Journée de grève intersyndicale : grève\, blocage\, ravitail
+ lement\, manifestation.
+CATEGORIES:Mobilisations
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-05-ussel-greve-blocage-ravitaillement@agenda-la-chataigne
+DTSTAMP:20261108T000000Z
+LAST-MODIFIED:20261108T000000Z
+DTSTART;TZID=Europe/Paris:20261105T140000
+DTEND;TZID=Europe/Paris:20261105T160000
+SUMMARY:Grève · Blocage · Ravitaillement · Manifestation
+LOCATION:Devant l’hôpital\, Ussel
+DESCRIPTION:Journée de grève intersyndicale : grève\, blocage\, ravitail
+ lement\, manifestation.\n\nÀ confirmer : Horaire : 14h00 ou 14h30 selon l
+ es sources
+CATEGORIES:Mobilisations
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-05-brive-greve-blocage-ravitaillement@agenda-la-chataigne
+DTSTAMP:20261108T000000Z
+LAST-MODIFIED:20261108T000000Z
+DTSTART;TZID=Europe/Paris:20261105T143000
+DTEND;TZID=Europe/Paris:20261105T163000
+SUMMARY:Grève · Blocage · Ravitaillement · Manifestation
+LOCATION:Place du 14 juillet\, Brive
+DESCRIPTION:Journée de grève intersyndicale : grève\, blocage\, ravitail
+ lement\, manifestation.
+CATEGORIES:Mobilisations
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-06-la-villedieu-la-loutre-par-les-cornes-la@agenda-la-chataigne
+DTSTAMP:20261108T000000Z
+LAST-MODIFIED:20261108T000000Z
+DTSTART;TZID=Europe/Paris:20261106T170000
+DTEND;TZID=Europe/Paris:20261107T020000
+SUMMARY:La Loutre par les Cornes · La convergence des Sluts
+LOCATION:La Baraque\, La Villedieu
+DESCRIPTION:Une soirée chaude et réconfortante pour un passage plus doux 
+ vers l’hiver et pour une convergence d’amour et de soutien en ces temp
+ s bien compliqués. En plein cœur d’un mouvement social bouillonnant\, 
+ une nouvelle banderole : « La convergence des Sluts ». Derrière cette b
+ anderole se cache un après-midi\, une soirée et une nuit de maxi kiff en
+ semble ! Tous les bénéfices iront en soutien au mouvement (caisses de gr
+ ève et frais d’avocats).\n\nProgramme :\n- 17h – 21h : Camion de dép
+ istage du Planning familial 19 (plaids et chauffage inside) : dépistage H
+ IV\, hépatites et syphilis\, stand RDR (capotes\, fanzines\, roule ta pai
+ lle\, etc.)\, sérigraphie sur tee-shirts (ramène le tien : uni\, sans mo
+ tif\, en coton)\, bibliothèque / infokiosque d’autrices féministes qui
+  ont écrit sur leur expérience du travail du sexe\n- 19h : Projection du
+  film Portal Las Rosas (1h) suivie d’un point actu sur les luttes des TD
+ S et plus largement sur le mouvement social en cours dans l’hexagone\n- 
+ 20h : Repas cuisiné par Binti\, cocktails surprises et cupcakes sexyyyyy\
+ n- 21h : Allumettes – SWAN … spectacle\n- 21h30 : Zayr … live rap\n-
+  22h – 2h : DJ set (Local Team) : Tonino\, DJ Bok\, P’tite Frappe\, Pr
+ ince.sse Pudeur\n\nInfos pratiques :\n- Se garer au bord de la route et mo
+ nter à pieds\n- Ramène ta butch en 50 pour alimenter le poêle\n- Soiré
+ e réservée aux adhérent·e·s (adhésion à prix libre)\n- No CB\, cash
+  only. No relou\, bienveillance only\n\nOrganisé par : La Loutre par les 
+ Cornes
+CATEGORIES:Soirées & concerts
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-07-gueret-rassemblement-festif-et-popu@agenda-la-chataigne
+DTSTAMP:20261108T000000Z
+LAST-MODIFIED:20261108T000000Z
+DTSTART;TZID=Europe/Paris:20261107T100000
+DTEND;TZID=Europe/Paris:20261107T120000
+SUMMARY:Rassemblement festif et populaire
+LOCATION:Devant la mairie\, Guéret
+DESCRIPTION:Rassemblement festif et populaire contre les inégalités\, pou
+ r les services publics\, contre l’inaction climatique\, le productivisme
+  et les pesticides\, pour le vivre ensemble. Apporte de la musique\, des v
+ ivres\, ta bonne humeur… Lycéens : amenez vos parents !\n\nProgramme :\
+ n- 10h : Rassemblement devant la mairie\n- 13h : Assemblée générale\, s
+ quare Jorrand
+CATEGORIES:Mobilisations
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-07-tulle-acte-iv-contre-la-vie-chere@agenda-la-chataigne
+DTSTAMP:20261108T000000Z
+LAST-MODIFIED:20261108T000000Z
+DTSTART;TZID=Europe/Paris:20261107T113000
+DTEND;TZID=Europe/Paris:20261107T133000
+SUMMARY:Acte IV contre la vie chère · Tulle
+LOCATION:Départ Médiathèque de Tulle\, Tulle
+DESCRIPTION:Rassemblement\, manif et prises de parole. On va se faire enten
+ dre !\n\nÀ confirmer : Départ Médiathèque (affiche) \; Gare dans une v
+ ersion précédente
+CATEGORIES:Mobilisations
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-07-limoges-acte-iv-contre-la-vie-chere@agenda-la-chataigne
+DTSTAMP:20261108T000000Z
+LAST-MODIFIED:20261108T000000Z
+DTSTART;TZID=Europe/Paris:20261107T140000
+DTEND;TZID=Europe/Paris:20261107T160000
+SUMMARY:Acte IV contre la vie chère · Limoges
+LOCATION:Carrefour Tourny\, Limoges
+DESCRIPTION:Rassemblement.
+CATEGORIES:Mobilisations
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-07-brive-acte-iv-contre-la-vie-chere@agenda-la-chataigne
+DTSTAMP:20261108T000000Z
+LAST-MODIFIED:20261108T000000Z
+DTSTART;TZID=Europe/Paris:20261107T143000
+DTEND;TZID=Europe/Paris:20261107T163000
+SUMMARY:Acte IV contre la vie chère · Brive
+LOCATION:Parvis de la Gare\, Brive
+DESCRIPTION:Rassemblement et prises de parole.
+CATEGORIES:Mobilisations
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-07-veyrac-projection-debat-insecticide@agenda-la-chataigne
+DTSTAMP:20261108T000000Z
+LAST-MODIFIED:20261108T000000Z
+DTSTART;TZID=Europe/Paris:20261107T203000
+DTEND;TZID=Europe/Paris:20261107T223000
+SUMMARY:Projection-débat : « Insecticide\, comment l’agrochimie a tué 
+ les insectes »
+LOCATION:Mas Martin\, Veyrac
+DESCRIPTION:Organisée par A.S.T.E.R. dans le cadre du Festival internation
+ al Alimenterre (20e édition\, du 15 octobre au 30 novembre\, coordonné p
+ ar le CFSI). Avec le docteur Jean Maclouf et Martine Laplante\, président
+ e des Amis de la Terre Limousin.\n\nOrganisé par : A.S.T.E.R.
+CATEGORIES:Projections-débats
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-08-tulle-arpentage-du-livre-enfant-de@agenda-la-chataigne
+DTSTAMP:20261108T000000Z
+LAST-MODIFIED:20261108T000000Z
+DTSTART;TZID=Europe/Paris:20261108T150000
+DTEND;TZID=Europe/Paris:20261108T170000
+SUMMARY:Arpentage du livre « Enfant de Palestine » et projection de « Li
+ ttle Palestine\, journal d’un siège »
+LOCATION:Salle de l’Université populaire\, 19 avenue Alsace Lorraine\, T
+ ulle
+DESCRIPTION:Cinéma documentaire : arpentage du livre « Enfant de Palestin
+ e » d’Omar Alsoumi et projection de « Little Palestine\, journal d’u
+ n siège » d’Abdallah Al-Khatib (2022 – 89’).\n\nOrganisé par : Pe
+ uple et Culture et AFPS Corrèze
+CATEGORIES:Projections-débats
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-09-saint-yrieix-reunion-publique-comite-cito@agenda-la-chataign
+ e
+DTSTAMP:20261108T000000Z
+LAST-MODIFIED:20261108T000000Z
+DTSTART;TZID=Europe/Paris:20261109T200000
+DTEND;TZID=Europe/Paris:20261109T220000
+SUMMARY:Réunion publique · Comité citoyen pour une information indépend
+ ante
+LOCATION:Espace Ferraud\, Saint-Yrieix
+DESCRIPTION:Réunion publique autour de la pollution du bassin minier.\n\n
+ À confirmer : Commune à confirmer (Saint-Yrieix)\n\nProgramme :\n- Lauri
+ éras : en plus de l’arsenic\, nickel et cadmium…\n- La Fagassière : 
+ point sur le recours juridique\n- Bourneix / Fouilloux : zoom sur l’Est 
+ du bassin minier\n\nInfos pratiques :\n- Adhésion à prix libre via hello
+ asso.com\n\nOrganisé par : Comité citoyen pour une information indépend
+ ante (CCII 87)\n\nContact : comite-citoyen.87@lilo.org
+CATEGORIES:Rencontres & conférences
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-10-tulle-projection-arabat-au-dela-de@agenda-la-chataigne
+DTSTAMP:20261108T000000Z
+LAST-MODIFIED:20261108T000000Z
+DTSTART;TZID=Europe/Paris:20261110T200000
+DTEND;TZID=Europe/Paris:20261110T220000
+SUMMARY:Projection « Arabat – Au-delà de nous » au Battement d’ailes
+LOCATION:Le Battement d’ailes\, Tulle
+DESCRIPTION:ARABAT – AU-DELÀ DE NOUS\, Caroline Cranskens et Élodie Cla
+ eys / éditions Isabelle Sauvage / 2019 / 112 min.\n\nArabat est un mot br
+ eton qui signifie « assez »\, « ça suffit ». C’est également le ti
+ tre d’un poème d’Anjela Duval\, paysanne et poétesse du Trégor\, do
+ nt l’engagement a nourri ce film en deux parties : Prises de terre et Au
+ -delà de nous\, indépendantes et complémentaires. La seconde partie\, A
+ u-delà de nous\, est une traversée du pays : de la ZAD de Notre-Dame-des
+ -Landes aux ronds-points des gilets jaunes en passant par d’autres lieux
+  de luttes individuelles et collectives\, les paroles et les actes entrent
+  en contradiction et en résonance.\n\nUn avant-goût du festival Changer 
+ la fin #3 qui aura lieu les 20\, 21 et 22 novembre à Tulle !\n\nProgramme
+  :\n- 19h : Ouverture des portes\, de la buvette et repas (pas de CB)\n- 2
+ 0h : Projection\n\nInfos pratiques :\n- Prix libre\, reversé à l’AFPS1
+ 9\n\nOrganisé par : Le Battement d’ailes\n\nLien : https://vimeo.com/33
+ 0799946
+URL:https://vimeo.com/330799946
+CATEGORIES:Projections-débats
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-13-royere-de-vassiviere-permanence-administrative-et@agenda-la-
+ chataigne
+DTSTAMP:20261108T000000Z
+LAST-MODIFIED:20261108T000000Z
+DTSTART;TZID=Europe/Paris:20261113T093000
+DTEND;TZID=Europe/Paris:20261113T120000
+SUMMARY:Permanence administrative et juridique à Royère
+LOCATION:Médiathèque de Royère de Vassivière\, Royère-de-Vassivière
+DESCRIPTION:Organisé par : Syndicat de la Montagne Limousine\n\nLien : htt
+ ps://syndicat-montagne.org
+URL:https://syndicat-montagne.org
+CATEGORIES:Permanences
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-14-tulle-theatre-premier-atelier-de-r@agenda-la-chataigne
+DTSTAMP:20261108T000000Z
+LAST-MODIFIED:20261108T000000Z
+DTSTART;TZID=Europe/Paris:20261114T090000
+DTEND;TZID=Europe/Paris:20261114T180000
+SUMMARY:Théâtre : premier atelier de recherche théâtrale sur le thème 
+ de La Saga des Fous
+LOCATION:Salle Latreille\, Tulle
+CATEGORIES:Ateliers & formations
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-14-aubusson-grande-journee-de-mobilisati@agenda-la-chataigne
+DTSTAMP:20261108T000000Z
+LAST-MODIFIED:20261108T000000Z
+DTSTART;TZID=Europe/Paris:20261114T100000
+DTEND;TZID=Europe/Paris:20261114T180000
+SUMMARY:Grande journée de mobilisation contre les violences faites aux enf
+ ants & aux ados
+LOCATION:Gare routière\, Aubusson
+DESCRIPTION:Journée de mobilisation avec stands\, expos et grande friterie
+  solidaire. Recherche de bénévoles !\n\nProgramme :\n- 10h – 12h : Bé
+ névoles : montage et installation des barnums\, expos\, stands (sur site 
+ à la gare routière) \; épluchage de patates pour la grande friterie sol
+ idaire (dans une salle chauffée à 5 min à pieds)\n- 12h – 14h : Bén
+ évoles : cuisson des frites (sur site)\n- 17h – 18h : Bénévoles : dé
+ montage\n\nInfos pratiques :\n- Remerciements en frites et bonne humeur !\
+ n\nOrganisé par : Collectif enfantiste 23\n\nContact : collectifenfantist
+ e23@gmail.com · Instagram @collectifenfantiste23
+CATEGORIES:Mobilisations
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-14-royere-de-vassiviere-journee-dinformations-et-dec@agenda-la-
+ chataigne
+DTSTAMP:20261108T000000Z
+LAST-MODIFIED:20261108T000000Z
+DTSTART;TZID=Europe/Paris:20261114T100000
+DTEND;TZID=Europe/Paris:20261114T180000
+SUMMARY:Journée d’informations et d’échanges contre la porcherie indu
+ strielle du lac
+LOCATION:Salle polyvalente\, Royère-de-Vassivière
+DESCRIPTION:Une journée d’information contre la porcherie industrielle d
+ u lac. On n’en veut toujours pas !\n\nProgramme :\n- 10h : Projection du
+  documentaire « Cochon qui s’en dédit » (37 min) avec la probable pr
+ ésence du réalisateur Jean-Louis Le Tacon\, suivie d’une discussion\n-
+  12h : Cantine de soutien au Collectif à prix libre. Musique avec « La f
+ anfare invisible du Limousin »\n- 14h : Infos et échanges avec les élus
+  et les représentants du Syndicat du Lac\, du Parc naturel régional\, du
+  Collectif « Non à la porcherie du lac »\, de sa commission des requér
+ ants\, des associations environnementales (LPO\, Terre de liens\, Sources 
+ et rivières du Limousin)\, des collectifs contre les porcheries industrie
+ lles (Bujaleuf (87)\, Évaux-les-Bains (23))\, des témoignages de paysans
+ \, de riverains de porcheries\, de victimes de cyanobactéries…\n- 16h :
+  Conférence et débat avec Yves-Marie Le Lay\, défenseur breton de l’e
+ nvironnement contre les dérives de l’agro-industrie et les pollutions e
+ ngendrées\n- 17h30 – 18h : Bar ouvert avant de se quitter\, avec un mom
+ ent convivial en compagnie de la chorale « Les chouettes luttes »\n\nOrg
+ anisé par : Collectif « Non à la porcherie du lac »
+CATEGORIES:Rencontres & conférences
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-14-tulle-acte-v-manifestation@agenda-la-chataigne
+DTSTAMP:20261108T000000Z
+LAST-MODIFIED:20261108T000000Z
+DTSTART;TZID=Europe/Paris:20261114T140000
+DTEND;TZID=Europe/Paris:20261114T160000
+SUMMARY:Acte V · Manifestation
+LOCATION:Départ Gare de Tulle\, Tulle
+DESCRIPTION:Contre le permis de tuer. Se soutenir\, construire le rêve\, q
+ ue la terre entière se soulève !
+CATEGORIES:Mobilisations
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-tulle-theatre-premier-atelier-de-r@agenda-la-chataigne
+DTSTAMP:20261108T000000Z
+LAST-MODIFIED:20261108T000000Z
+DTSTART;TZID=Europe/Paris:20261115T090000
+DTEND;TZID=Europe/Paris:20261115T180000
+SUMMARY:Théâtre : premier atelier de recherche théâtrale sur le thème 
+ de La Saga des Fous
+LOCATION:Salle Latreille\, Tulle
+CATEGORIES:Ateliers & formations
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-18-la-metive-cafeministe-autour-des-quest@agenda-la-chataigne
+DTSTAMP:20261108T000000Z
+LAST-MODIFIED:20261108T000000Z
+DTSTART;TZID=Europe/Paris:20261118T140000
+DTEND;TZID=Europe/Paris:20261118T160000
+SUMMARY:Caféministe autour des questions de genres en agriculture
+LOCATION:La Métive\, La Métive
+DESCRIPTION:Un temps d’échange en petit groupe sur les difficultés que 
+ les personnes sexisées* peuvent vivre dans leur activité en agriculture 
+ : écoute et parole pour prendre soin et échanger autour de nos pratiques
+  et nos besoins. À destination des femmes et des minorités de genre trav
+ aillant en milieu agricole\, mais aussi de leurs proches\, aidants ou de t
+ oute personne concernée par ces questions. Animé par elie du PF23 et Jul
+ iette de l’ADEAR. Public adulte et ado. Sur réservation.\n\n*« Sexisé
+  » désigne une personne ou un groupe subissant des discriminations fond
+ ées sur le sexe\, le genre\, ou des stéréotypes de genre\, incluant le 
+ sexisme\, le cissexisme et l’hétérosexisme.\n\nOrganisé par : ADEAR e
+ t Planning familial 23\n\nContact : juliettev@adearlimousin.com
+CATEGORIES:Ateliers & formations
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-tulle-soiree-vin-nouveau-confedera@agenda-la-chataigne
+DTSTAMP:20261108T000000Z
+LAST-MODIFIED:20261108T000000Z
+DTSTART;TZID=Europe/Paris:20261119T180000
+DTEND;TZID=Europe/Paris:20261119T200000
+SUMMARY:Soirée Vin nouveau · Confédération paysanne
+LOCATION:Salle Latreille\, Tulle
+DESCRIPTION:Autour d’un verre de vin nouveau corrézien\, venez soutenir 
+ la Confédération paysanne de Corrèze pour continuer à sauvegarder une 
+ agriculture paysanne responsable. Aujourd’hui\, la Conf a besoin de votr
+ e soutien pour continuer à tenir son rôle de représentation dans les in
+ stances de l’État (SAFER\, CDPENAF\, organismes environnementaux) et sa
+  place pour installer plus de paysan·nes sur des projets diversifiés. Su
+ ite aux baisses d’aides au fonctionnement d’un syndicat agricole diff
+ érent\, les emplois d’animation qui soutiennent la dynamique syndicale 
+ sont en danger (seulement 1 équivalent temps plein pour 3 départements :
+  Haute-Vienne\, Creuse et Corrèze). S’ils disparaissent\, c’est direc
+ tement la Conf qui est en danger !\n\nPaysan·ne\, consommateur·ice\, syn
+ diqué·es ou non\, curieux\, citoyen·nes\, jeunes\, vieux : si vous avez
+  des questions\, rencontrons-nous ! Pour que vive la différence !\n\nProg
+ ramme :\n- Dégustation de vin nouveau corrézien – planche-apéro paysa
+ nne\n- Concert\n- Stand d’information sur les différentes luttes\n- Ven
+ te d’affiches « collector »\, de T-shirts…\n- Stand d’associations
+  amies\n\nInfos pratiques :\n- Venez soutenir nos luttes contre l’accapa
+ rement des terres par les énergéticiens (photovoltaïque\, méthanisatio
+ n)\n- Pour une meilleure gestion de l’eau\, des zones humides\, pour un 
+ partage de l’eau équitable\n- Contre les pesticides et pour les protoco
+ les alternatifs\n- Pour un changement de système agricole\, monopolisé p
+ ar quelques-uns\n\nOrganisé par : Confédération paysanne de Corrèze\n\
+ nContact : 07 82 95 22 42
+CATEGORIES:Soirées & concerts
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-saint-martin-la-meanne-projection-marinaleda-un-vil@agenda-l
+ a-chataigne
+DTSTAMP:20261108T000000Z
+LAST-MODIFIED:20261108T000000Z
+DTSTART;TZID=Europe/Paris:20261119T200000
+DTEND;TZID=Europe/Paris:20261119T220000
+SUMMARY:Projection : « Marinaleda\, un village en utopie »
+LOCATION:Foyer rural\, Saint-Martin-la-Méanne
+DESCRIPTION:Cinéma documentaire : projection du film Marinaleda\, un villa
+ ge en utopie.\n\nOrganisé par : Peuple et Culture Corrèze
+CATEGORIES:Projections-débats
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-x-projection-welcome-to-europe@agenda-la-chataigne
+DTSTAMP:20261108T000000Z
+LAST-MODIFIED:20261108T000000Z
+DTSTART;TZID=Europe/Paris:20261119T203000
+DTEND;TZID=Europe/Paris:20261119T223000
+SUMMARY:Projection : « Welcome to Europe » — Qui sont les vrais barbare
+ s ?
+LOCATION:Au Lido
+DESCRIPTION:Diffusion-débat organisée dans le cadre de la sortie national
+ e et de la tournée en France du film. Soirée en présence de Cyril Monta
+ na\, co-réalisateur du film. Film de Thomas Bornot et Cyril Montana (Le V
+ illage Production)\, avec la participation de Yadulah Mousawi.\n\nÀ confi
+ rmer : Ville à préciser\n\nOrganisé par : Attac 87-23\, Chabatz d’ent
+ rar\, Institut d’histoire sociale CGT\, collectif contre les idées d’
+ extrême droite de la Haute-Vienne
+CATEGORIES:Projections-débats
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-20-tarnac-permanence-administrative-et@agenda-la-chataigne
+DTSTAMP:20261108T000000Z
+LAST-MODIFIED:20261108T000000Z
+DTSTART;TZID=Europe/Paris:20261120T093000
+DTEND;TZID=Europe/Paris:20261120T120000
+SUMMARY:Permanence administrative et juridique à Tarnac
+LOCATION:Tarnac PTT cybercafé\, 1 boulevard Aristide Briand\, Tarnac
+DESCRIPTION:Organisé par : Syndicat de la Montagne Limousine\n\nLien : htt
+ ps://syndicat-montagne.org
+URL:https://syndicat-montagne.org
+CATEGORIES:Permanences
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-20-tulle-festival-changer-la-fin-3-de@agenda-la-chataigne
+DTSTAMP:20261108T000000Z
+LAST-MODIFIED:20261108T000000Z
+DTSTART;TZID=Europe/Paris:20261120T140000
+DTEND;TZID=Europe/Paris:20261120T160000
+SUMMARY:Festival Changer la fin #3 · Déplier les silences
+LOCATION:Salle Latreille\, Tulle
+DESCRIPTION:Festival de films « Changer la fin » #3\, du vendredi 20 au d
+ imanche 22 novembre\, salle Latreille (impasse Latreille)\, Tulle. Séance
+ s à prix libre au profit des artistes (défraiement des déplacements\, r
+ epas\, boissons\, hébergements)\, de PalMed (Palestine Medical) et de Cor
+ rèze Solidarité (collectif de soutien aux personnes exilées).\n\nProgra
+ mme :\n- 14h : LA BARRIÈRE\, l’Œil de chouette & Peuple et Culture Cor
+ rèze (2026\, 95’). Débat préparé et animé par des élèves du lycé
+ e professionnel René Cassin de Tulle\n- 16h30 : Goûter partagé\n- 17h30
+  : CERCLE DE PAROLE\, animé par Chloé Munich et Gaëlle Rhodes\n- 18h30 
+ : ÉCOUTER LES GARÇONS « EXTRAITS »\, Chloé Munich (2026). Échange en
+  présence de l’équipe\, du Centre Alice Guy et d’En amont des mots\n
+ - 21h : RELICTO\, Guillermo Quintero (2026\, 97’\, espagnol sous-titré 
+ français). Échange animé par l’équipe du festival\n\nInfos pratiques
+  :\n- Buvette et restauration sur place\, locale et végétarienne (brasse
+ rie de la Vézère\, Panache\, Réseau S.A.F.E.\, Cou-Cook\, Le Chaplati)\
+ n- Plus d’infos sur Facebook et Instagram : Changer la fin\n\nOrganisé 
+ par : Festival Changer la fin\n\nContact : sneksnarc@gmail.com (réservati
+ on)
+CATEGORIES:Festival & marché
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-21-tulle-festival-changer-la-fin-3-po@agenda-la-chataigne
+DTSTAMP:20261108T000000Z
+LAST-MODIFIED:20261108T000000Z
+DTSTART;TZID=Europe/Paris:20261121T100000
+DTEND;TZID=Europe/Paris:20261121T230000
+SUMMARY:Festival Changer la fin #3 · Pour une paix révolutionnaire
+LOCATION:Salle Latreille\, Tulle
+DESCRIPTION:Festival de films « Changer la fin » #3\, du vendredi 20 au d
+ imanche 22 novembre\, salle Latreille (impasse Latreille)\, Tulle. Séance
+ s à prix libre au profit des artistes (défraiement des déplacements\, r
+ epas\, boissons\, hébergements)\, de PalMed (Palestine Medical) et de Cor
+ rèze Solidarité (collectif de soutien aux personnes exilées).\n\nMarch
+ é anticapitaliste en continu\, 10h – 20h\, salle Latreille (bas).\n\nPr
+ ogramme :\n- 10h : NOUS SOMMES DES CHAMPS DE BATAILLE\, Mathieu Rigouste (
+ 2025\, 90’). Échange animé par Les Soulèvements de la terre 19\n- 13h
+ 30 : LA TERRE DU MILIEU\, Juliette Guignard (2020\, 56’)\n- 14h30 : Disc
+ ussion libre « Non au Mordor climatique » (60’)\, animée par l’asso
+ ciation L’Écherelée en présence de maraîcher·es et paysan·nes bio 
+ de Corrèze\n- 16h : À L’ASSAUT DU CIEL\, CUBA OU LA SOLIDARITÉ ANTI-I
+ MPÉRIALISTE\, La Brèche (2026\, 70’). En présence de membres de La Br
+ èche (association au positionnement marxiste assumé\, regroupant trois m
+ édias engagés dans l’analyse politique et l’action militante : Padut
+ eam\, Positions Revue\, OnNeVeutPlus)\n- 18h30 : INTERSECTING MEMORIES\, S
+ hayma’ Awawdeh (2025\, 21’\, anglais sous-titré français)\n- 20h30 :
+  RÉSISTER POUR EXISTER\, Yacine Helali (2026\, 61’). Échange animé pa
+ r l’Association France Palestine Solidarité 19\, en présence de Yacine
+  Helali et d’Omar Alsoumi\, autour du film et du livre « Enfant de Pale
+ stine »\n- 23h : MICRO OUVERT : graines de résistance\n\nInfos pratiques
+  :\n- Buvette et restauration sur place\, locale et végétarienne (brasse
+ rie de la Vézère\, Panache\, Réseau S.A.F.E.\, Cou-Cook\, Le Chaplati)\
+ n- Plus d’infos sur Facebook et Instagram : Changer la fin\n\nOrganisé 
+ par : Festival Changer la fin\n\nContact : sneksnarc@gmail.com (réservati
+ on)
+CATEGORIES:Festival & marché
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-21-tulle-marche-anticapitaliste-100-g@agenda-la-chataigne
+DTSTAMP:20261108T000000Z
+LAST-MODIFIED:20261108T000000Z
+DTSTART;TZID=Europe/Paris:20261121T100000
+DTEND;TZID=Europe/Paris:20261121T200000
+SUMMARY:Marché anticapitaliste · 100 % gratuit
+LOCATION:Salle Latreille\, Tulle
+DESCRIPTION:Le système capitaliste nous vend une illusion : celle que notr
+ e valeur se mesure à ce que nous achetons\, et que notre bonheur dépend 
+ de l’accumulation de biens matériels.\n\nIci\, pas d’argent\, pas de 
+ troc\, pas de carte bancaire : tout est 100 % gratuit. Un espace éphémè
+ re pour casser le rythme infernal de la surconsommation\, lutter contre le
+  gaspillage et expérimenter la solidarité. Ce qui est superflu pour l’
+ un devient une ressource pour l’autre : nous luttons contre le gaspillag
+ e en remettant en circulation ce qui a déjà été produit.\n\nVous pouve
+ z déposer et/ou prendre tout ce qui est encore en bon état et utilisable
+  : culture & loisirs (livres\, BD\, jeux de société\, puzzles\, CD/vinyl
+ es\, matériel de loisirs créatifs…) \; vêtements & accessoires (vête
+ ments propres et en bon état\, adultes et enfants\, chaussures\, sacs\, b
+ ijoux…) \; maison & vie quotidienne (vaisselle\, ustensiles de cuisine\,
+  petit électroménager fonctionnel\, linge de maison\, décoration…) \;
+  jardin & bricolage (outils\, pots de fleurs\, graines…).\n\nMerci de ne
+  pas apporter de vêtements usés/troués\, de sous-vêtements portés\, d
+ e matériel dangereux ou d’objets hors d’usage.\n\nInfos pratiques :\n
+ - 1. Je trie : je sélectionne chez moi ce qui dort dans mes placards mais
+  qui peut encore faire le bonheur de quelqu’un d’autre.\n- 2. Je dépo
+ se (ou je viens les mains vides) : l’abondance est partagée collectivem
+ ent.\n- 3. Je prends : je repars avec ce qui m’est utile ou me fait plai
+ sir\, sans culpabilité ni contrepartie.\n\nOrganisé par : Festival Chang
+ er la fin
+CATEGORIES:Festival & marché
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-22-tulle-festival-changer-la-fin-3-fo@agenda-la-chataigne
+DTSTAMP:20261108T000000Z
+LAST-MODIFIED:20261108T000000Z
+DTSTART;TZID=Europe/Paris:20261122T100000
+DTEND;TZID=Europe/Paris:20261122T214500
+SUMMARY:Festival Changer la fin #3 · Folie et résistance
+LOCATION:Salle Latreille\, Tulle
+DESCRIPTION:Festival de films « Changer la fin » #3\, du vendredi 20 au d
+ imanche 22 novembre\, salle Latreille (impasse Latreille)\, Tulle. Séance
+ s à prix libre au profit des artistes (défraiement des déplacements\, r
+ epas\, boissons\, hébergements)\, de PalMed (Palestine Medical) et de Cor
+ rèze Solidarité (collectif de soutien aux personnes exilées).\n\nMarch
+ é anticapitaliste en continu\, salle Latreille (bas).\n\nProgramme :\n- 1
+ 0h : PERSPECTIVE(S) VUE(S) D’ICI\, compagnie Le Pied Levé (2026\, 24’
+ ). En présence de danseur·euses de la compagnie et d’habitant·es de l
+ a cité de Bournazel de Tulle\n- 11h30 : AGNÈS ET ANYA\, Hélène Baril (
+ 2026\, France\, 30’). Musique de KinetoniK\, jouée en direct pendant la
+  projection. En présence de la réalisatrice\, des actrices et du composi
+ teur\n- 13h30 : ARGUMENTS\, Olivier Zabat (2019\, 107’\, anglais sous-ti
+ tré français). Rendez-vous à la table ronde de 17h30\n- 16h : QUELLE FO
+ LIE\, Diego Governatori (2019\, 87’)\n- 17h30 – 19h : TABLE RONDE : FO
+ LIE ET RÉSISTANCE (90’)\n- 20h30 : SINGLE\, Maryline Lagrafeuil et Séb
+ astien Chadelaud (comédie musicale\, 1h15)\n\nInfos pratiques :\n- Buvett
+ e et restauration sur place\, locale et végétarienne (brasserie de la V
+ ézère\, Panache\, Réseau S.A.F.E.\, Cou-Cook\, Le Chaplati)\n- Plus d
+ ’infos sur Facebook et Instagram : Changer la fin\n\nOrganisé par : Fes
+ tival Changer la fin\n\nContact : sneksnarc@gmail.com (réservation)
+CATEGORIES:Festival & marché
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-22-tulle-marche-anticapitaliste-100-g@agenda-la-chataigne
+DTSTAMP:20261108T000000Z
+LAST-MODIFIED:20261108T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Marché anticapitaliste · 100 % gratuit
+LOCATION:Salle Latreille\, Tulle
+DESCRIPTION:Le système capitaliste nous vend une illusion : celle que notr
+ e valeur se mesure à ce que nous achetons\, et que notre bonheur dépend 
+ de l’accumulation de biens matériels.\n\nIci\, pas d’argent\, pas de 
+ troc\, pas de carte bancaire : tout est 100 % gratuit. Un espace éphémè
+ re pour casser le rythme infernal de la surconsommation\, lutter contre le
+  gaspillage et expérimenter la solidarité. Ce qui est superflu pour l’
+ un devient une ressource pour l’autre : nous luttons contre le gaspillag
+ e en remettant en circulation ce qui a déjà été produit.\n\nVous pouve
+ z déposer et/ou prendre tout ce qui est encore en bon état et utilisable
+  : culture & loisirs (livres\, BD\, jeux de société\, puzzles\, CD/vinyl
+ es\, matériel de loisirs créatifs…) \; vêtements & accessoires (vête
+ ments propres et en bon état\, adultes et enfants\, chaussures\, sacs\, b
+ ijoux…) \; maison & vie quotidienne (vaisselle\, ustensiles de cuisine\,
+  petit électroménager fonctionnel\, linge de maison\, décoration…) \;
+  jardin & bricolage (outils\, pots de fleurs\, graines…).\n\nMerci de ne
+  pas apporter de vêtements usés/troués\, de sous-vêtements portés\, d
+ e matériel dangereux ou d’objets hors d’usage.\n\nÀ confirmer : Hora
+ ires du dimanche à préciser\n\nInfos pratiques :\n- 1. Je trie : je sél
+ ectionne chez moi ce qui dort dans mes placards mais qui peut encore faire
+  le bonheur de quelqu’un d’autre.\n- 2. Je dépose (ou je viens les ma
+ ins vides) : l’abondance est partagée collectivement.\n- 3. Je prends :
+  je repars avec ce qui m’est utile ou me fait plaisir\, sans culpabilit
+ é ni contrepartie.\n\nOrganisé par : Festival Changer la fin
+CATEGORIES:Festival & marché
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-24-limoges-formation-syndicale-solidair@agenda-la-chataigne
+DTSTAMP:20261108T000000Z
+LAST-MODIFIED:20261108T000000Z
+DTSTART;TZID=Europe/Paris:20261124T083000
+DTEND;TZID=Europe/Paris:20261124T170000
+SUMMARY:Formation syndicale Solidaires 87 : l’EVARS pour prévenir les vi
+ olences sexistes et sexuelles (VSS)
+LOCATION:Cité scolaire Limousin\, Limoges
+DESCRIPTION:L’éducation à la vie affective\, relationnelle et sexuelle 
+ (EVARS) vise à générer des rapports humains de qualité\, des relations
+  égalitaires dénuées de sexisme et de préjugés\, pour construire une 
+ société plus inclusive. Le CESE a adopté en septembre 2024 son rapport 
+ et son avis « Éduquer à la vie affective\, relationnelle et sexuelle »
+ .\n\nL’EVARS est avant tout une éducation à l’égalité qui déconst
+ ruit les stéréotypes et les normes sociales inégalitaires entre les ind
+ ividus. Point de convergence entre les droits des femmes et les droits des
+  enfants\, elle peut déconstruire les schémas toxiques\, aider à enraye
+ r la montée des violences sexuelles\, du sexisme et des LGBTQIAphobies\, 
+ contribuer à une meilleure prévention des maladies sexuellement transmis
+ sibles et de la transmission du VIH\, et\, à l’école\, amener au repé
+ rage d’enfants victimes d’abus sexuels.\n\nProgramme :\n- Matin : Conf
+ érence-débat avec les co-rapporteureuses du Conseil économique\, social
+  et environnemental (CESE) : Cécile Gondard-Lalanne (Groupe Alternatives 
+ sociales et écologiques) et Evanne Jeanne-Rose (Groupe des Organisations 
+ étudiantes et des mouvements de jeunesse)\n- Midi : Repas sur place\n- Ap
+ rès-midi : Ateliers participatifs pour repartir outillé·es\, avec la pa
+ rticipation du Planning familial : exemples de pratiques de séances d’E
+ VARS \; présentation de l’éducation populaire et de ses techniques pou
+ vant facilement être utilisées \; jeux de société militants\n\nOrganis
+ é par : Solidaires 87\n\nContact : formation@solidaires87.org · 06 89 86
+  24 96 · inscription par QR code sur l’affiche
+CATEGORIES:Ateliers & formations
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-25-limoges-journee-internationale-de-lu@agenda-la-chataigne
+DTSTAMP:20261108T000000Z
+LAST-MODIFIED:20261108T000000Z
+DTSTART;TZID=Europe/Paris:20261125T160000
+DTEND;TZID=Europe/Paris:20261125T194500
+SUMMARY:Journée internationale de lutte contre les violences sexistes et s
+ exuelles
+LOCATION:Place d’Aine\, Limoges
+DESCRIPTION:Programme :\n- 16h – 18h30 : Espace d’information\, de part
+ age et de recueil collectif\n- 16h30 – 17h : Débat mouvant sur des qual
+ ifications juridiques des VSS\n- 17h – 18h : Atelier chant\n- 18h30 – 
+ 19h45 : Prise de parole du collectif 8 mars 87\, restitution de l’atelie
+ r chant et performance artistique féministe\n\nInfos pratiques :\n- À 20
+ h : conférence-débat « Femmes et exil : parcours de violences »\n\nOrg
+ anisé par : Collectif 8 mars 87
+CATEGORIES:Rencontres & conférences
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-25-limoges-conference-debat-femmes-et-e@agenda-la-chataigne
+DTSTAMP:20261108T000000Z
+LAST-MODIFIED:20261108T000000Z
+DTSTART;TZID=Europe/Paris:20261125T200000
+DTEND;TZID=Europe/Paris:20261125T220000
+SUMMARY:Conférence-débat « Femmes et exil : parcours de violences »
+LOCATION:Salle Jean Montalat\, 15 rue Jean Montalat (Beaubreuil\, bus 10)\,
+  Limoges
+DESCRIPTION:Organisée dans le cadre de la journée internationale de lutte
+  contre les violences faites aux femmes. Avec : Delphine d’Allivy-Kelly\
+ , avocate\, membre du Gisti \; Solange Van Beest-Mahié\, juriste auprès 
+ du CIDFF \; Marie Jeanne Vaugoyeau et Martine Panardie du Planning familia
+ l.\n\nCIDFF Limousin : centre d’information sur le droit des femmes et d
+ es familles. Gisti : groupe d’information et de soutien des immigrés. P
+ lanning familial : mouvement féministe d’éducation populaire.\n\nÀ co
+ nfirmer : Salle à confirmer (« salle reste à définir » sur l’affich
+ e)\n\nOrganisé par : Chabatz d’entrar\, avec le soutien du collectif 8 
+ mars\n\nContact : chabatzdentrar@riseup.net\n\nLien : https://facebook.com
+ /collectifchabatzdentrar/
+URL:https://facebook.com/collectifchabatzdentrar/
+CATEGORIES:Rencontres & conférences
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-26-saint-solve-la-passion-de-la-liberte-une@agenda-la-chataigne
+DTSTAMP:20261108T000000Z
+LAST-MODIFIED:20261108T000000Z
+DTSTART;TZID=Europe/Paris:20261126T183000
+DTEND;TZID=Europe/Paris:20261126T203000
+SUMMARY:La passion de la liberté – Une histoire populaire de la Grèce
+LOCATION:Salle polyvalente derrière la mairie\, Saint-Solve
+DESCRIPTION:Projection-débat en présence du réalisateur\, Yannis Youloun
+ tas. Prix libre.\n\nProgramme :\n- 18h30 : Rencontrons-nous autour d’un 
+ verre\n- 19h30 : Le film suivi d’un débat\n\nOrganisé par : Collectif 
+ citoyen Vigilance et Initiatives
+CATEGORIES:Projections-débats
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-28-x-grande-assemblee-syndicale-s@agenda-la-chataigne
+DTSTAMP:20261108T000000Z
+LAST-MODIFIED:20261108T000000Z
+DTSTART;TZID=Europe/Paris:20261128T140000
+DTEND;TZID=Europe/Paris:20261128T180000
+SUMMARY:Grande assemblée syndicale · Syndicat de la Montagne Limousine
+DESCRIPTION:« Dans l’élan du soulèvement\, forgeons des armes de const
+ ruction massive. »\n\nÀ confirmer : Lieu à préciser\n\nOrganisé par :
+  Syndicat de la Montagne Limousine
+CATEGORIES:Rencontres & conférences
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-28-faux-la-montagne-tele-millevaches-fete-ses-40@agenda-la-chat
+ aigne
+DTSTAMP:20261108T000000Z
+LAST-MODIFIED:20261108T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Télé Millevaches fête ses 40 ans · Grosse teuf !
+LOCATION:Salle des fêtes\, Faux-la-Montagne
+DESCRIPTION:Le plateau du Plateau ! Un plateau spécial pour l’événemen
+ t : quiz\, concours de doublage + surprises ! En concert : Les Rézisterz\
+ , girls band mixte en rouge et noir (chanson militante festive pour danser
+  et chanter). DJ Biche : set électrique dansant\, house\, électro. Entr
+ ée à prix libre\, buvette + cantine sur place.\n\nÀ confirmer : Horaire
+  à préciser\n\nOrganisé par : Télé Millevaches
+CATEGORIES:Soirées & concerts
+END:VEVENT
+END:VCALENDAR

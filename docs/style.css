@@ -1,0 +1,101 @@
+/* La Châtaigne — charte : jaune châtaigne, noir, rouge ; sans-serif sobre. Licence AGPL-3.0-or-later. */
+:root{
+  --jaune:#f2b705; --noir:#1a1a1a; --rouge:#c8102e; --gris:#5a5a5a;
+  --fond:#fff; --texte:#1a1a1a; --carte:#fff; --filet:#e2e2e2; --creme:#fff6d6; --lien:#a50d26;
+  --police:Arial,"Helvetica Neue",Helvetica,"Liberation Sans",sans-serif;
+}
+@media (prefers-color-scheme:dark){
+  :root{--fond:#141414; --texte:#eee; --carte:#1d1d1d; --filet:#333; --gris:#b0b0b0; --rouge:#ff5a70; --lien:#ff8a9a; --creme:#2b2410}
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--fond);color:var(--texte);font:16px/1.5 var(--police);
+  padding:env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+  max-width:780px;margin-inline:auto}
+a{color:var(--lien)}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.saut{position:absolute;left:-999px;top:0;background:var(--jaune);color:var(--noir);padding:.5rem 1rem;z-index:50}
+.saut:focus{left:0}
+:focus-visible{outline:3px solid var(--rouge);outline-offset:2px}
+
+/* ---- en-tête : logo, titre, slogan, filet jaune ---- */
+.entete{padding:1.1rem 1rem .8rem;border-bottom:6px solid var(--jaune)}
+.marque{display:flex;align-items:center;gap:.8rem}
+.logo{flex:none;width:56px;height:56px}
+h1{margin:0;font-size:clamp(1.7rem,7vw,2.5rem);font-weight:800;letter-spacing:.05em;text-transform:uppercase;line-height:1.05}
+.slogan{margin:.3rem 0 0;font-weight:700;font-size:clamp(.92rem,3.6vw,1.1rem);line-height:1.25}
+.maj{margin:.7rem 1rem 0;color:var(--gris);letter-spacing:.14em;text-transform:uppercase;font-size:.85rem}
+
+/* ---- outils ---- */
+.outils{padding:.8rem 1rem .4rem;border-bottom:1px solid var(--filet)}
+input[type=search],select{width:100%;font:inherit;padding:.6rem .7rem;border:2px solid var(--noir);border-radius:6px;background:var(--carte);color:var(--texte)}
+@media (prefers-color-scheme:dark){input[type=search],select{border-color:#777}}
+.ligne{display:flex;flex-wrap:wrap;gap:.6rem .9rem;align-items:center;margin-top:.5rem}
+.ligne select{width:auto;flex:1 1 11rem}
+.passes{font-size:.9rem;display:flex;gap:.4rem;align-items:center}
+.chips{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:.55rem}
+.chip{font:inherit;font-size:.85rem;font-weight:700;padding:.3rem .65rem;border:2px solid var(--noir);border-radius:999px;background:var(--carte);color:var(--texte);cursor:pointer}
+@media (prefers-color-scheme:dark){.chip{border-color:#777}}
+.chip[aria-pressed=true]{background:var(--noir);color:var(--jaune);border-color:var(--noir)}
+.compte{margin:.5rem 0 .2rem;font-size:.85rem;color:var(--gris)}
+
+/* ---- jours ---- */
+main{padding:0 1rem 1rem;outline:none}
+.mois-titre{margin:1.4rem 0 0;color:var(--gris);letter-spacing:.14em;text-transform:uppercase;font-size:.85rem;font-weight:400}
+.jour h2{margin:1.1rem -1rem 0;padding:.4rem 1rem;background:var(--noir);color:var(--jaune);font-size:.88rem;letter-spacing:.14em;text-transform:uppercase;position:sticky;top:0;z-index:10}
+.jour h2 .auj{background:var(--jaune);color:var(--noir);padding:.05rem .45rem;border-radius:3px;margin-left:.5rem;letter-spacing:.06em}
+.jour.passe h2{opacity:.65}
+
+/* ---- cartes ---- */
+.carte{padding:.9rem 0 1rem;border-bottom:1px solid var(--filet);display:grid;grid-template-columns:1fr auto;gap:.2rem .9rem;scroll-margin-top:3rem}
+.carte:target{background:var(--creme);box-shadow:-1rem 0 0 var(--creme),1rem 0 0 var(--creme)}
+.carte h3{margin:0;font-size:1.15rem;line-height:1.25}
+.meta{margin:.2rem 0 0;color:var(--rouge);font-weight:700;font-size:.93rem}
+.vignette{grid-column:2;grid-row:1 / span 3;width:88px;border:0;padding:0;background:none;cursor:zoom-in;align-self:start}
+.vignette img{width:100%;height:auto;display:block;border-radius:4px;border:1px solid var(--filet)}
+.corps{grid-column:1 / -1}
+.desc p{margin:.45rem 0 0}
+.carte:not(.ouverte) .desc{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.carte:not(.ouverte) .desc p+p{display:none}
+.alerte{margin:.55rem 0 0;padding:.4rem .6rem;background:var(--creme);border-left:4px solid var(--jaune);font-size:.9rem}
+.plus{margin-top:.5rem;font:inherit;font-weight:700;font-size:.9rem;background:none;border:0;padding:.3rem 0;color:var(--lien);cursor:pointer;text-decoration:underline}
+.detail{margin-top:.4rem}
+.detail[hidden]{display:none}
+.detail h4{margin:.9rem 0 .25rem;font-size:.8rem;letter-spacing:.12em;text-transform:uppercase}
+.prog{list-style:none;margin:0;padding:0}
+.prog li{display:grid;grid-template-columns:5.2rem 1fr;gap:.5rem;padding:.25rem 0}
+.prog li.sans-h{grid-template-columns:1fr}
+.prog b{color:var(--rouge)}
+.infos{margin:.2rem 0 0;padding-left:1.2rem}
+.orga{margin:.6rem 0 0;font-size:.92rem}
+.actions{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:.9rem}
+.affiches{display:flex;flex-wrap:wrap;gap:.6rem;margin-top:.8rem}
+.affiches img{width:150px;height:auto;border-radius:4px;border:1px solid var(--filet);cursor:zoom-in}
+
+/* ---- boutons ---- */
+.btn{display:inline-block;font:inherit;font-weight:700;font-size:.9rem;text-decoration:none;cursor:pointer;
+  padding:.5rem .85rem;border:2px solid var(--noir);border-radius:6px;background:var(--carte);color:var(--texte)}
+@media (prefers-color-scheme:dark){.btn{border-color:#777}}
+.btn-plein{background:var(--noir);color:var(--jaune);border-color:var(--noir)}
+.btn:hover{background:var(--jaune);color:var(--noir);border-color:var(--noir)}
+
+/* ---- bas de page ---- */
+.agenda-tel{margin:1.5rem 1rem 0;padding:1rem;background:var(--creme);border-left:6px solid var(--jaune)}
+.agenda-tel h2{margin:0 0 .3rem;font-size:1.1rem}
+.agenda-tel p{margin:.2rem 0 .7rem}
+.boutons{display:flex;flex-wrap:wrap;gap:.5rem}
+.aide{font-size:.85rem;color:var(--gris)}
+.pied{margin:1.5rem 1rem 2rem;padding-top:.8rem;border-top:6px solid var(--jaune);font-size:.9rem}
+.pied .petit{font-size:.8rem;color:var(--gris)}
+.chargement,.vide{margin:1.5rem 0;padding:1rem;background:var(--creme);border-left:4px solid var(--jaune)}
+
+/* ---- visionneuse d'affiche ---- */
+dialog{border:0;padding:0;background:var(--carte);color:var(--texte);max-width:min(96vw,640px);max-height:94vh;border-radius:8px}
+dialog::backdrop{background:rgba(0,0,0,.75)}
+#visio-contenu{overflow:auto;max-height:94vh;padding:2.6rem .6rem .6rem}
+#visio-contenu img{display:block;width:100%;height:auto;margin-bottom:.6rem}
+.fermer{position:absolute;right:.5rem;top:.5rem;z-index:2;font:inherit;font-weight:700;width:2.2rem;height:2.2rem;border-radius:50%;border:2px solid var(--noir);background:var(--jaune);color:var(--noir);cursor:pointer}
+
+@media (min-width:640px){.vignette{width:120px}.carte h3{font-size:1.25rem}}
+@media (prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+@media print{.outils,.agenda-tel,.actions,.plus,.saut{display:none!important}.carte:not(.ouverte) .desc{display:block}.detail[hidden]{display:block}.jour h2{position:static}}

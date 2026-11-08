@@ -1,0 +1,39 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "La Châtaigne — agenda militant Limousin",
+  "type": "object",
+  "required": ["titre", "types", "evenements"],
+  "properties": {
+    "titre": {"type": "string"},
+    "slogan": {"type": "string"},
+    "maj": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$", "description": "Date de dernière mise à jour (AAAA-MM-JJ)"},
+    "types": {"type": "object", "additionalProperties": {"type": "string"}},
+    "evenements": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "date", "titre", "type"],
+        "properties": {
+          "id": {"type": "string", "description": "Identifiant unique et stable (sert d'UID dans le .ics)"},
+          "date": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+          "debut": {"type": ["string", "null"], "pattern": "^([01]\\d|2[0-3]):[0-5]\\d$", "description": "HH:MM — vide = événement sans horaire (journée entière)"},
+          "fin": {"type": ["string", "null"], "pattern": "^([01]\\d|2[0-3]):[0-5]\\d$", "description": "HH:MM — si plus petite que le début : lendemain"},
+          "titre": {"type": "string"},
+          "type": {"type": "string", "description": "Clé de l'objet « types »"},
+          "lieu": {"type": "string"},
+          "ville": {"type": "string"},
+          "departement": {"enum": ["", "19", "23", "87"]},
+          "organisateur": {"type": "string"},
+          "description": {"type": "string", "description": "Texte libre, \\n\\n pour séparer les paragraphes"},
+          "programme": {"type": "array", "items": {"type": "object", "required": ["t"], "properties": {"h": {"type": "string"}, "t": {"type": "string"}}}},
+          "infos": {"type": "array", "items": {"type": "string"}},
+          "contact": {"type": "string"},
+          "lien": {"type": "object", "required": ["url"], "properties": {"url": {"type": "string"}, "texte": {"type": "string"}}},
+          "affiches": {"type": "array", "items": {"type": "string"}, "description": "Chemins relatifs à docs/, ex. affiches/mon-affiche.jpg"},
+          "tags": {"type": "array", "items": {"type": "string"}},
+          "a_confirmer": {"type": "string", "description": "Ce qui reste à confirmer (lieu, horaire…) : affiché en alerte"}
+        }
+      }
+    }
+  }
+}

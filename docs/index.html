@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>La Châtaigne · Agenda militant Limousin</title>
+  <meta name="description" content="La Châtaigne, l’agenda militant Limousin qui ne manque pas de piquants : mobilisations, projections-débats, soirées, ateliers en Haute-Vienne, Corrèze et Creuse.">
+  <meta name="theme-color" content="#f2b705">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/chataigne.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="alternate" type="text/calendar" title="La Châtaigne (calendrier .ics)" href="agenda.ics">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="saut" href="#liste">Aller aux événements</a>
+
+  <header class="entete">
+    <div class="marque">
+      <img class="logo" src="icons/chataigne.svg" alt="" width="56" height="56">
+      <div>
+        <h1>La Châtaigne</h1>
+        <p class="slogan">l’Agenda militant Limousin qui ne manque pas de piquants&nbsp;!</p>
+      </div>
+    </div>
+  </header>
+  <p class="maj" id="maj" aria-live="polite"></p>
+
+  <section class="outils" aria-label="Filtres">
+    <div class="recherche">
+      <label for="q" class="sr">Rechercher un événement</label>
+      <input id="q" type="search" placeholder="Rechercher (ville, thème, film, collectif…)" autocomplete="off" enterkeyhint="search">
+    </div>
+    <div class="ligne">
+      <label for="dep" class="sr">Département</label>
+      <select id="dep">
+        <option value="">Tout le Limousin</option>
+        <option value="87">Haute-Vienne (87)</option>
+        <option value="19">Corrèze (19)</option>
+        <option value="23">Creuse (23)</option>
+      </select>
+      <label class="passes"><input type="checkbox" id="passes"> Afficher les événements passés</label>
+    </div>
+    <div class="chips" id="chips" role="group" aria-label="Types d’événements"></div>
+    <p class="compte" id="compte" aria-live="polite"></p>
+  </section>
+
+  <main id="liste" tabindex="-1">
+    <p class="chargement">Chargement de l’agenda…</p>
+  </main>
+
+  <section class="agenda-tel" aria-labelledby="t-abo">
+    <h2 id="t-abo">L’agenda dans ton téléphone</h2>
+    <p>Abonne-toi une fois : le calendrier de ton téléphone (ou de ton ordinateur) se mettra à jour tout seul à chaque nouvelle édition.</p>
+    <div class="boutons">
+      <a class="btn btn-plein" id="abo-webcal" href="agenda.ics">📅 S’abonner au calendrier</a>
+      <button class="btn" id="abo-copie" type="button">Copier le lien</button>
+      <a class="btn" href="agenda.ics" download="la-chataigne.ics">Télécharger le .ics</a>
+      <button class="btn" id="installer" type="button" hidden>⬇ Installer l’appli</button>
+    </div>
+    <p class="aide" id="aide-ios" hidden>Sur iPhone / iPad : bouton Partager, puis « Sur l’écran d’accueil ».</p>
+  </section>
+
+  <footer class="pied">
+    <p id="proposer-p" hidden>Un événement à signaler&nbsp;? <a id="proposer" href="#">Écris-nous par mail</a> avec l’affiche et les infos : on l’ajoutera à la prochaine édition.</p>
+    <p>La Châtaigne est un agenda indépendant, mis à jour chaque mois. Les horaires peuvent changer : vérifie auprès des organisateurs.</p>
+    <p class="petit">Code libre sous licence <a href="https://www.gnu.org/licenses/agpl-3.0.fr.html">AGPL-3.0</a> · données sous licence <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr">CC BY-SA 4.0</a> · les affiches appartiennent à leurs auteur·ices · <a id="depot" href="#" hidden>code source</a></p>
+  </footer>
+
+  <dialog id="visio" aria-label="Affiche">
+    <button class="fermer" id="visio-fermer" type="button" aria-label="Fermer">✕</button>
+    <div id="visio-contenu"></div>
+  </dialog>
+
+  <noscript><p class="chargement">Cette page a besoin de JavaScript. Le calendrier <a href="agenda.ics">agenda.ics</a> reste utilisable dans n’importe quelle application d’agenda.</p></noscript>
+
+  <script src="ics.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

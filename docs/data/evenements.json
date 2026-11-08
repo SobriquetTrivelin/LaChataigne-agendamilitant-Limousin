@@ -1,0 +1,1067 @@
+{
+  "$schema": "./evenements.schema.json",
+  "titre": "La Châtaigne",
+  "slogan": "l’Agenda militant Limousin qui ne manque pas de piquants !",
+  "maj": "2026-11-08",
+  "types": {
+    "manif": "Mobilisations",
+    "projection": "Projections-débats",
+    "rencontre": "Rencontres & conférences",
+    "soiree": "Soirées & concerts",
+    "atelier": "Ateliers & formations",
+    "permanence": "Permanences",
+    "festival": "Festival & marché"
+  },
+  "evenements": [
+    {
+      "id": "2026-11-05-tulle-blocus-du-lycee-edmond-perri",
+      "date": "2026-11-05",
+      "debut": "07:00",
+      "fin": null,
+      "titre": "Blocus du lycée Edmond Perrier",
+      "type": "manif",
+      "lieu": "Lycée Edmond Perrier (et lycée d’Arsonval)",
+      "ville": "Tulle",
+      "departement": "19",
+      "description": "Blocus du lycée Edmond Perrier à partir de 7h, puis manifestation à la tour administrative (informations à venir). Nos revendications sont légitimes, elles concernent tout le monde !",
+      "infos": [
+        "Des classes salubres",
+        "Plus de profs et d’AESH",
+        "Des conditions de travail adaptées",
+        "Non à Parcoursup",
+        "Non à la répression policière",
+        "Non à la dérive autoritaire",
+        "Soutien aux lycéens défavorisés"
+      ],
+      "affiches": [
+        "affiches/blocus-perrier.jpg"
+      ],
+      "tags": [
+        "grève",
+        "lycéens"
+      ]
+    },
+    {
+      "id": "2026-11-05-gueret-greve-blocage-ravitaillement",
+      "date": "2026-11-05",
+      "debut": "10:00",
+      "fin": null,
+      "titre": "Grève · Blocage · Ravitaillement · Manifestation",
+      "type": "manif",
+      "lieu": "Place de la Mairie",
+      "ville": "Guéret",
+      "departement": "23",
+      "description": "Appel à toutes les Creusois·es, les boomeureuses, retraité·es, quadra, cinquantenaires et celleux qui sont sur la dernière ligne droite (mais sur la voix de gauche) de la retraite : ramenons notre boule pour des battles d’aura (bataille de charisme), le 5 novembre (et le six / seven 6/7), à Guéret, devant la mairie à 10h.\n\nMontrons que nous en avons dans notre fiac (fesse) XXL (et pas BBL), la génération baby boom, X, Y et Z. Gagnons des avancées sociales pour toutes les autres générations après nous, qui aujourd’hui nous donnent une bonne leçon sur le merdier que nous leur laissons.\n\nOn fait caca (*3) sur Bardella, on fait pipi (*3) sur les nazis, on fait popo (*3) sur les fashos.\n\n*Message à caractère inter-générationnel",
+      "affiches": [
+        "affiches/intersyndicale.jpg"
+      ],
+      "tags": [
+        "grève",
+        "intersyndicale"
+      ]
+    },
+    {
+      "id": "2026-11-05-uzerche-greve-generale-festive-joyeu",
+      "date": "2026-11-05",
+      "debut": "10:00",
+      "fin": null,
+      "titre": "Grève générale festive, joyeuse, solidaire et en colère · Cantine populaire",
+      "type": "manif",
+      "lieu": "Parking de la papeterie",
+      "ville": "Uzerche",
+      "departement": "19",
+      "description": "Rendez-vous à 10h au parking de la papeterie. Cantine populaire : châtaignes grillées et soupe au caillou, avec atelier créatif militant et espace enfant.",
+      "programme": [
+        {
+          "h": "10h",
+          "t": "Rendez-vous, parking de la papeterie"
+        },
+        {
+          "h": "11h",
+          "t": "Préparation de la soupe : ramène tes légumes et ton couteau !"
+        },
+        {
+          "h": "Après la soupe",
+          "t": "Atelier créatif militant : création de pancartes, de choré, répétition de slogans pour les manifs ? Partage de techniques et réflexes anti-répression ? Temps de discussion. Échanges autour de l’initiative citoyenne de Chamberet autour de l’adaptation au changement climatique ? Nos envies à Uzerche ?"
+        },
+        {
+          "h": "Après la soupe",
+          "t": "Espace enfant, notamment si les instit sont en grève. Apporte des jeux, des livres, de quoi dessiner. Besoin d’adultes pour se relayer."
+        }
+      ],
+      "infos": [
+        "Tout le monde peut ramener : coussins, tapis, chaises et tables pliables",
+        "Cartons, draps, peinture, marqueurs",
+        "Bidons d’eau, bassines, éponge, savon, sacs poubelle",
+        "Petits bois et cagettes pour les braseros",
+        "De la monnaie pour contribuer"
+      ],
+      "affiches": [
+        "affiches/greve-uzerche.jpg"
+      ],
+      "tags": [
+        "grève",
+        "cantine populaire"
+      ]
+    },
+    {
+      "id": "2026-11-05-limoges-greve-blocage-ravitaillement",
+      "date": "2026-11-05",
+      "debut": "10:30",
+      "fin": null,
+      "titre": "Grève · Blocage · Ravitaillement · Manifestation",
+      "type": "manif",
+      "lieu": "Carrefour Tourny",
+      "ville": "Limoges",
+      "departement": "87",
+      "description": "Journée de grève intersyndicale : grève, blocage, ravitaillement, manifestation.",
+      "affiches": [
+        "affiches/intersyndicale.jpg"
+      ],
+      "tags": [
+        "grève",
+        "intersyndicale"
+      ]
+    },
+    {
+      "id": "2026-11-05-tulle-greve-blocage-ravitaillement",
+      "date": "2026-11-05",
+      "debut": "10:30",
+      "fin": null,
+      "titre": "Grève · Blocage · Ravitaillement · Manifestation",
+      "type": "manif",
+      "lieu": "Place Brigouleix",
+      "ville": "Tulle",
+      "departement": "19",
+      "description": "Journée de grève intersyndicale : grève, blocage, ravitaillement, manifestation.",
+      "affiches": [
+        "affiches/intersyndicale.jpg"
+      ],
+      "tags": [
+        "grève",
+        "intersyndicale"
+      ]
+    },
+    {
+      "id": "2026-11-05-ussel-greve-blocage-ravitaillement",
+      "date": "2026-11-05",
+      "debut": "14:00",
+      "fin": null,
+      "titre": "Grève · Blocage · Ravitaillement · Manifestation",
+      "type": "manif",
+      "lieu": "Devant l’hôpital",
+      "ville": "Ussel",
+      "departement": "19",
+      "description": "Journée de grève intersyndicale : grève, blocage, ravitaillement, manifestation.",
+      "a_confirmer": "Horaire : 14h00 ou 14h30 selon les sources",
+      "tags": [
+        "grève",
+        "intersyndicale"
+      ]
+    },
+    {
+      "id": "2026-11-05-brive-greve-blocage-ravitaillement",
+      "date": "2026-11-05",
+      "debut": "14:30",
+      "fin": null,
+      "titre": "Grève · Blocage · Ravitaillement · Manifestation",
+      "type": "manif",
+      "lieu": "Place du 14 juillet",
+      "ville": "Brive",
+      "departement": "19",
+      "description": "Journée de grève intersyndicale : grève, blocage, ravitaillement, manifestation.",
+      "affiches": [
+        "affiches/intersyndicale.jpg"
+      ],
+      "tags": [
+        "grève",
+        "intersyndicale"
+      ]
+    },
+    {
+      "id": "2026-11-06-la-villedieu-la-loutre-par-les-cornes-la",
+      "date": "2026-11-06",
+      "debut": "17:00",
+      "fin": "02:00",
+      "titre": "La Loutre par les Cornes · La convergence des Sluts",
+      "type": "soiree",
+      "lieu": "La Baraque",
+      "ville": "La Villedieu",
+      "departement": "23",
+      "organisateur": "La Loutre par les Cornes",
+      "description": "Une soirée chaude et réconfortante pour un passage plus doux vers l’hiver et pour une convergence d’amour et de soutien en ces temps bien compliqués. En plein cœur d’un mouvement social bouillonnant, une nouvelle banderole : « La convergence des Sluts ». Derrière cette banderole se cache un après-midi, une soirée et une nuit de maxi kiff ensemble ! Tous les bénéfices iront en soutien au mouvement (caisses de grève et frais d’avocats).",
+      "programme": [
+        {
+          "h": "17h – 21h",
+          "t": "Camion de dépistage du Planning familial 19 (plaids et chauffage inside) : dépistage HIV, hépatites et syphilis, stand RDR (capotes, fanzines, roule ta paille, etc.), sérigraphie sur tee-shirts (ramène le tien : uni, sans motif, en coton), bibliothèque / infokiosque d’autrices féministes qui ont écrit sur leur expérience du travail du sexe"
+        },
+        {
+          "h": "19h",
+          "t": "Projection du film Portal Las Rosas (1h) suivie d’un point actu sur les luttes des TDS et plus largement sur le mouvement social en cours dans l’hexagone"
+        },
+        {
+          "h": "20h",
+          "t": "Repas cuisiné par Binti, cocktails surprises et cupcakes sexyyyyy"
+        },
+        {
+          "h": "21h",
+          "t": "Allumettes – SWAN … spectacle"
+        },
+        {
+          "h": "21h30",
+          "t": "Zayr … live rap"
+        },
+        {
+          "h": "22h – 2h",
+          "t": "DJ set (Local Team) : Tonino, DJ Bok, P’tite Frappe, Prince.sse Pudeur"
+        }
+      ],
+      "infos": [
+        "Se garer au bord de la route et monter à pieds",
+        "Ramène ta butch en 50 pour alimenter le poêle",
+        "Soirée réservée aux adhérent·e·s (adhésion à prix libre)",
+        "No CB, cash only. No relou, bienveillance only"
+      ],
+      "affiches": [
+        "affiches/loutre-par-les-cornes.jpg"
+      ],
+      "tags": [
+        "féminisme",
+        "soutien au mouvement",
+        "TDS"
+      ]
+    },
+    {
+      "id": "2026-11-07-gueret-rassemblement-festif-et-popu",
+      "date": "2026-11-07",
+      "debut": "10:00",
+      "fin": null,
+      "titre": "Rassemblement festif et populaire",
+      "type": "manif",
+      "lieu": "Devant la mairie",
+      "ville": "Guéret",
+      "departement": "23",
+      "description": "Rassemblement festif et populaire contre les inégalités, pour les services publics, contre l’inaction climatique, le productivisme et les pesticides, pour le vivre ensemble. Apporte de la musique, des vivres, ta bonne humeur… Lycéens : amenez vos parents !",
+      "programme": [
+        {
+          "h": "10h",
+          "t": "Rassemblement devant la mairie"
+        },
+        {
+          "h": "13h",
+          "t": "Assemblée générale, square Jorrand"
+        }
+      ],
+      "affiches": [
+        "affiches/gueret-7-nov.jpg"
+      ],
+      "tags": [
+        "vie chère",
+        "lycéens"
+      ]
+    },
+    {
+      "id": "2026-11-07-tulle-acte-iv-contre-la-vie-chere",
+      "date": "2026-11-07",
+      "debut": "11:30",
+      "fin": null,
+      "titre": "Acte IV contre la vie chère · Tulle",
+      "type": "manif",
+      "lieu": "Départ Médiathèque de Tulle",
+      "ville": "Tulle",
+      "departement": "19",
+      "description": "Rassemblement, manif et prises de parole. On va se faire entendre !",
+      "a_confirmer": "Départ Médiathèque (affiche) ; Gare dans une version précédente",
+      "affiches": [
+        "affiches/acte4-tulle.jpg"
+      ],
+      "tags": [
+        "vie chère"
+      ]
+    },
+    {
+      "id": "2026-11-07-limoges-acte-iv-contre-la-vie-chere",
+      "date": "2026-11-07",
+      "debut": "14:00",
+      "fin": null,
+      "titre": "Acte IV contre la vie chère · Limoges",
+      "type": "manif",
+      "lieu": "Carrefour Tourny",
+      "ville": "Limoges",
+      "departement": "87",
+      "description": "Rassemblement.",
+      "tags": [
+        "vie chère"
+      ]
+    },
+    {
+      "id": "2026-11-07-brive-acte-iv-contre-la-vie-chere",
+      "date": "2026-11-07",
+      "debut": "14:30",
+      "fin": null,
+      "titre": "Acte IV contre la vie chère · Brive",
+      "type": "manif",
+      "lieu": "Parvis de la Gare",
+      "ville": "Brive",
+      "departement": "19",
+      "description": "Rassemblement et prises de parole.",
+      "tags": [
+        "vie chère"
+      ]
+    },
+    {
+      "id": "2026-11-07-veyrac-projection-debat-insecticide",
+      "date": "2026-11-07",
+      "debut": "20:30",
+      "fin": null,
+      "titre": "Projection-débat : « Insecticide, comment l’agrochimie a tué les insectes »",
+      "type": "projection",
+      "lieu": "Mas Martin",
+      "ville": "Veyrac",
+      "departement": "87",
+      "organisateur": "A.S.T.E.R.",
+      "description": "Organisée par A.S.T.E.R. dans le cadre du Festival international Alimenterre (20e édition, du 15 octobre au 30 novembre, coordonné par le CFSI). Avec le docteur Jean Maclouf et Martine Laplante, présidente des Amis de la Terre Limousin.",
+      "affiches": [
+        "affiches/insecticide.jpg"
+      ],
+      "tags": [
+        "écologie",
+        "agriculture",
+        "Alimenterre"
+      ]
+    },
+    {
+      "id": "2026-11-08-tulle-arpentage-du-livre-enfant-de",
+      "date": "2026-11-08",
+      "debut": "15:00",
+      "fin": null,
+      "titre": "Arpentage du livre « Enfant de Palestine » et projection de « Little Palestine, journal d’un siège »",
+      "type": "projection",
+      "lieu": "Salle de l’Université populaire, 19 avenue Alsace Lorraine",
+      "ville": "Tulle",
+      "departement": "19",
+      "organisateur": "Peuple et Culture et AFPS Corrèze",
+      "description": "Cinéma documentaire : arpentage du livre « Enfant de Palestine » d’Omar Alsoumi et projection de « Little Palestine, journal d’un siège » d’Abdallah Al-Khatib (2022 – 89’).",
+      "tags": [
+        "Palestine"
+      ]
+    },
+    {
+      "id": "2026-11-09-saint-yrieix-reunion-publique-comite-cito",
+      "date": "2026-11-09",
+      "debut": "20:00",
+      "fin": "22:00",
+      "titre": "Réunion publique · Comité citoyen pour une information indépendante",
+      "type": "rencontre",
+      "lieu": "Espace Ferraud",
+      "ville": "Saint-Yrieix",
+      "departement": "87",
+      "organisateur": "Comité citoyen pour une information indépendante (CCII 87)",
+      "description": "Réunion publique autour de la pollution du bassin minier.",
+      "programme": [
+        {
+          "h": "",
+          "t": "Lauriéras : en plus de l’arsenic, nickel et cadmium…"
+        },
+        {
+          "h": "",
+          "t": "La Fagassière : point sur le recours juridique"
+        },
+        {
+          "h": "",
+          "t": "Bourneix / Fouilloux : zoom sur l’Est du bassin minier"
+        }
+      ],
+      "infos": [
+        "Adhésion à prix libre via helloasso.com"
+      ],
+      "contact": "comite-citoyen.87@lilo.org",
+      "affiches": [
+        "affiches/comite-citoyen.jpg"
+      ],
+      "tags": [
+        "écologie",
+        "pollution"
+      ],
+      "a_confirmer": "Commune à confirmer (Saint-Yrieix)"
+    },
+    {
+      "id": "2026-11-10-tulle-projection-arabat-au-dela-de",
+      "date": "2026-11-10",
+      "debut": "20:00",
+      "fin": null,
+      "titre": "Projection « Arabat – Au-delà de nous » au Battement d’ailes",
+      "type": "projection",
+      "lieu": "Le Battement d’ailes",
+      "ville": "Tulle",
+      "departement": "19",
+      "organisateur": "Le Battement d’ailes",
+      "description": "ARABAT – AU-DELÀ DE NOUS, Caroline Cranskens et Élodie Claeys / éditions Isabelle Sauvage / 2019 / 112 min.\n\nArabat est un mot breton qui signifie « assez », « ça suffit ». C’est également le titre d’un poème d’Anjela Duval, paysanne et poétesse du Trégor, dont l’engagement a nourri ce film en deux parties : Prises de terre et Au-delà de nous, indépendantes et complémentaires. La seconde partie, Au-delà de nous, est une traversée du pays : de la ZAD de Notre-Dame-des-Landes aux ronds-points des gilets jaunes en passant par d’autres lieux de luttes individuelles et collectives, les paroles et les actes entrent en contradiction et en résonance.\n\nUn avant-goût du festival Changer la fin #3 qui aura lieu les 20, 21 et 22 novembre à Tulle !",
+      "programme": [
+        {
+          "h": "19h",
+          "t": "Ouverture des portes, de la buvette et repas (pas de CB)"
+        },
+        {
+          "h": "20h",
+          "t": "Projection"
+        }
+      ],
+      "infos": [
+        "Prix libre, reversé à l’AFPS19"
+      ],
+      "lien": {
+        "url": "https://vimeo.com/330799946",
+        "texte": "Bande-annonce"
+      },
+      "tags": [
+        "luttes",
+        "Palestine"
+      ]
+    },
+    {
+      "id": "2026-11-13-royere-de-vassiviere-permanence-administrative-et",
+      "date": "2026-11-13",
+      "debut": "09:30",
+      "fin": "12:00",
+      "titre": "Permanence administrative et juridique à Royère",
+      "type": "permanence",
+      "lieu": "Médiathèque de Royère de Vassivière",
+      "ville": "Royère-de-Vassivière",
+      "departement": "23",
+      "organisateur": "Syndicat de la Montagne Limousine",
+      "lien": {
+        "url": "https://syndicat-montagne.org",
+        "texte": "syndicat-montagne.org"
+      },
+      "tags": [
+        "syndicat"
+      ]
+    },
+    {
+      "id": "2026-11-14-tulle-theatre-premier-atelier-de-r",
+      "date": "2026-11-14",
+      "debut": "09:00",
+      "fin": "18:00",
+      "titre": "Théâtre : premier atelier de recherche théâtrale sur le thème de La Saga des Fous",
+      "type": "atelier",
+      "lieu": "Salle Latreille",
+      "ville": "Tulle",
+      "departement": "19",
+      "tags": [
+        "théâtre"
+      ]
+    },
+    {
+      "id": "2026-11-14-aubusson-grande-journee-de-mobilisati",
+      "date": "2026-11-14",
+      "debut": "10:00",
+      "fin": "18:00",
+      "titre": "Grande journée de mobilisation contre les violences faites aux enfants & aux ados",
+      "type": "manif",
+      "lieu": "Gare routière",
+      "ville": "Aubusson",
+      "departement": "23",
+      "organisateur": "Collectif enfantiste 23",
+      "description": "Journée de mobilisation avec stands, expos et grande friterie solidaire. Recherche de bénévoles !",
+      "programme": [
+        {
+          "h": "10h – 12h",
+          "t": "Bénévoles : montage et installation des barnums, expos, stands (sur site à la gare routière) ; épluchage de patates pour la grande friterie solidaire (dans une salle chauffée à 5 min à pieds)"
+        },
+        {
+          "h": "12h – 14h",
+          "t": "Bénévoles : cuisson des frites (sur site)"
+        },
+        {
+          "h": "17h – 18h",
+          "t": "Bénévoles : démontage"
+        }
+      ],
+      "infos": [
+        "Remerciements en frites et bonne humeur !"
+      ],
+      "contact": "collectifenfantiste23@gmail.com · Instagram @collectifenfantiste23",
+      "affiches": [
+        "affiches/enfantiste-aubusson.jpg"
+      ],
+      "tags": [
+        "enfance",
+        "bénévoles"
+      ]
+    },
+    {
+      "id": "2026-11-14-royere-de-vassiviere-journee-dinformations-et-dec",
+      "date": "2026-11-14",
+      "debut": "10:00",
+      "fin": "18:00",
+      "titre": "Journée d’informations et d’échanges contre la porcherie industrielle du lac",
+      "type": "rencontre",
+      "lieu": "Salle polyvalente",
+      "ville": "Royère-de-Vassivière",
+      "departement": "23",
+      "organisateur": "Collectif « Non à la porcherie du lac »",
+      "description": "Une journée d’information contre la porcherie industrielle du lac. On n’en veut toujours pas !",
+      "programme": [
+        {
+          "h": "10h",
+          "t": "Projection du documentaire « Cochon qui s’en dédit » (37 min) avec la probable présence du réalisateur Jean-Louis Le Tacon, suivie d’une discussion"
+        },
+        {
+          "h": "12h",
+          "t": "Cantine de soutien au Collectif à prix libre. Musique avec « La fanfare invisible du Limousin »"
+        },
+        {
+          "h": "14h",
+          "t": "Infos et échanges avec les élus et les représentants du Syndicat du Lac, du Parc naturel régional, du Collectif « Non à la porcherie du lac », de sa commission des requérants, des associations environnementales (LPO, Terre de liens, Sources et rivières du Limousin), des collectifs contre les porcheries industrielles (Bujaleuf (87), Évaux-les-Bains (23)), des témoignages de paysans, de riverains de porcheries, de victimes de cyanobactéries…"
+        },
+        {
+          "h": "16h",
+          "t": "Conférence et débat avec Yves-Marie Le Lay, défenseur breton de l’environnement contre les dérives de l’agro-industrie et les pollutions engendrées"
+        },
+        {
+          "h": "17h30 – 18h",
+          "t": "Bar ouvert avant de se quitter, avec un moment convivial en compagnie de la chorale « Les chouettes luttes »"
+        }
+      ],
+      "affiches": [
+        "affiches/porcherie-royere.jpg"
+      ],
+      "tags": [
+        "écologie",
+        "agriculture"
+      ]
+    },
+    {
+      "id": "2026-11-14-tulle-acte-v-manifestation",
+      "date": "2026-11-14",
+      "debut": "14:00",
+      "fin": null,
+      "titre": "Acte V · Manifestation",
+      "type": "manif",
+      "lieu": "Départ Gare de Tulle",
+      "ville": "Tulle",
+      "departement": "19",
+      "description": "Contre le permis de tuer. Se soutenir, construire le rêve, que la terre entière se soulève !",
+      "affiches": [
+        "affiches/acte5-tulle.jpg"
+      ]
+    },
+    {
+      "id": "2026-11-15-tulle-theatre-premier-atelier-de-r",
+      "date": "2026-11-15",
+      "debut": "09:00",
+      "fin": "18:00",
+      "titre": "Théâtre : premier atelier de recherche théâtrale sur le thème de La Saga des Fous",
+      "type": "atelier",
+      "lieu": "Salle Latreille",
+      "ville": "Tulle",
+      "departement": "19",
+      "tags": [
+        "théâtre"
+      ]
+    },
+    {
+      "id": "2026-11-18-la-metive-cafeministe-autour-des-quest",
+      "date": "2026-11-18",
+      "debut": "14:00",
+      "fin": "16:00",
+      "titre": "Caféministe autour des questions de genres en agriculture",
+      "type": "atelier",
+      "lieu": "La Métive",
+      "ville": "La Métive",
+      "departement": "23",
+      "organisateur": "ADEAR et Planning familial 23",
+      "description": "Un temps d’échange en petit groupe sur les difficultés que les personnes sexisées* peuvent vivre dans leur activité en agriculture : écoute et parole pour prendre soin et échanger autour de nos pratiques et nos besoins. À destination des femmes et des minorités de genre travaillant en milieu agricole, mais aussi de leurs proches, aidants ou de toute personne concernée par ces questions. Animé par elie du PF23 et Juliette de l’ADEAR. Public adulte et ado. Sur réservation.\n\n*« Sexisé » désigne une personne ou un groupe subissant des discriminations fondées sur le sexe, le genre, ou des stéréotypes de genre, incluant le sexisme, le cissexisme et l’hétérosexisme.",
+      "contact": "juliettev@adearlimousin.com",
+      "tags": [
+        "féminisme",
+        "agriculture",
+        "sur réservation"
+      ]
+    },
+    {
+      "id": "2026-11-19-tulle-soiree-vin-nouveau-confedera",
+      "date": "2026-11-19",
+      "debut": "18:00",
+      "fin": null,
+      "titre": "Soirée Vin nouveau · Confédération paysanne",
+      "type": "soiree",
+      "lieu": "Salle Latreille",
+      "ville": "Tulle",
+      "departement": "19",
+      "organisateur": "Confédération paysanne de Corrèze",
+      "description": "Autour d’un verre de vin nouveau corrézien, venez soutenir la Confédération paysanne de Corrèze pour continuer à sauvegarder une agriculture paysanne responsable. Aujourd’hui, la Conf a besoin de votre soutien pour continuer à tenir son rôle de représentation dans les instances de l’État (SAFER, CDPENAF, organismes environnementaux) et sa place pour installer plus de paysan·nes sur des projets diversifiés. Suite aux baisses d’aides au fonctionnement d’un syndicat agricole différent, les emplois d’animation qui soutiennent la dynamique syndicale sont en danger (seulement 1 équivalent temps plein pour 3 départements : Haute-Vienne, Creuse et Corrèze). S’ils disparaissent, c’est directement la Conf qui est en danger !\n\nPaysan·ne, consommateur·ice, syndiqué·es ou non, curieux, citoyen·nes, jeunes, vieux : si vous avez des questions, rencontrons-nous ! Pour que vive la différence !",
+      "programme": [
+        {
+          "h": "",
+          "t": "Dégustation de vin nouveau corrézien – planche-apéro paysanne"
+        },
+        {
+          "h": "",
+          "t": "Concert"
+        },
+        {
+          "h": "",
+          "t": "Stand d’information sur les différentes luttes"
+        },
+        {
+          "h": "",
+          "t": "Vente d’affiches « collector », de T-shirts…"
+        },
+        {
+          "h": "",
+          "t": "Stand d’associations amies"
+        }
+      ],
+      "infos": [
+        "Venez soutenir nos luttes contre l’accaparement des terres par les énergéticiens (photovoltaïque, méthanisation)",
+        "Pour une meilleure gestion de l’eau, des zones humides, pour un partage de l’eau équitable",
+        "Contre les pesticides et pour les protocoles alternatifs",
+        "Pour un changement de système agricole, monopolisé par quelques-uns"
+      ],
+      "contact": "07 82 95 22 42",
+      "affiches": [
+        "affiches/vin-nouveau-conf.jpg"
+      ],
+      "tags": [
+        "agriculture",
+        "syndicat"
+      ]
+    },
+    {
+      "id": "2026-11-19-saint-martin-la-meanne-projection-marinaleda-un-vil",
+      "date": "2026-11-19",
+      "debut": "20:00",
+      "fin": null,
+      "titre": "Projection : « Marinaleda, un village en utopie »",
+      "type": "projection",
+      "lieu": "Foyer rural",
+      "ville": "Saint-Martin-la-Méanne",
+      "departement": "19",
+      "organisateur": "Peuple et Culture Corrèze",
+      "description": "Cinéma documentaire : projection du film Marinaleda, un village en utopie.",
+      "tags": [
+        "utopie"
+      ]
+    },
+    {
+      "id": "2026-11-19-x-projection-welcome-to-europe",
+      "date": "2026-11-19",
+      "debut": "20:30",
+      "fin": null,
+      "titre": "Projection : « Welcome to Europe » — Qui sont les vrais barbares ?",
+      "type": "projection",
+      "lieu": "Au Lido",
+      "ville": "",
+      "departement": "",
+      "organisateur": "Attac 87-23, Chabatz d’entrar, Institut d’histoire sociale CGT, collectif contre les idées d’extrême droite de la Haute-Vienne",
+      "description": "Diffusion-débat organisée dans le cadre de la sortie nationale et de la tournée en France du film. Soirée en présence de Cyril Montana, co-réalisateur du film. Film de Thomas Bornot et Cyril Montana (Le Village Production), avec la participation de Yadulah Mousawi.",
+      "a_confirmer": "Ville à préciser",
+      "affiches": [
+        "affiches/welcome-to-europe.jpg"
+      ],
+      "tags": [
+        "migrations",
+        "antiracisme"
+      ]
+    },
+    {
+      "id": "2026-11-20-tarnac-permanence-administrative-et",
+      "date": "2026-11-20",
+      "debut": "09:30",
+      "fin": "12:00",
+      "titre": "Permanence administrative et juridique à Tarnac",
+      "type": "permanence",
+      "lieu": "Tarnac PTT cybercafé, 1 boulevard Aristide Briand",
+      "ville": "Tarnac",
+      "departement": "19",
+      "organisateur": "Syndicat de la Montagne Limousine",
+      "lien": {
+        "url": "https://syndicat-montagne.org",
+        "texte": "syndicat-montagne.org"
+      },
+      "tags": [
+        "syndicat"
+      ]
+    },
+    {
+      "id": "2026-11-20-tulle-festival-changer-la-fin-3-de",
+      "date": "2026-11-20",
+      "debut": "14:00",
+      "fin": null,
+      "titre": "Festival Changer la fin #3 · Déplier les silences",
+      "type": "festival",
+      "lieu": "Salle Latreille",
+      "ville": "Tulle",
+      "departement": "19",
+      "organisateur": "Festival Changer la fin",
+      "description": "Festival de films « Changer la fin » #3, du vendredi 20 au dimanche 22 novembre, salle Latreille (impasse Latreille), Tulle. Séances à prix libre au profit des artistes (défraiement des déplacements, repas, boissons, hébergements), de PalMed (Palestine Medical) et de Corrèze Solidarité (collectif de soutien aux personnes exilées).",
+      "programme": [
+        {
+          "h": "14h",
+          "t": "LA BARRIÈRE, l’Œil de chouette & Peuple et Culture Corrèze (2026, 95’). Débat préparé et animé par des élèves du lycée professionnel René Cassin de Tulle"
+        },
+        {
+          "h": "16h30",
+          "t": "Goûter partagé"
+        },
+        {
+          "h": "17h30",
+          "t": "CERCLE DE PAROLE, animé par Chloé Munich et Gaëlle Rhodes"
+        },
+        {
+          "h": "18h30",
+          "t": "ÉCOUTER LES GARÇONS « EXTRAITS », Chloé Munich (2026). Échange en présence de l’équipe, du Centre Alice Guy et d’En amont des mots"
+        },
+        {
+          "h": "21h",
+          "t": "RELICTO, Guillermo Quintero (2026, 97’, espagnol sous-titré français). Échange animé par l’équipe du festival"
+        }
+      ],
+      "infos": [
+        "Buvette et restauration sur place, locale et végétarienne (brasserie de la Vézère, Panache, Réseau S.A.F.E., Cou-Cook, Le Chaplati)",
+        "Plus d’infos sur Facebook et Instagram : Changer la fin"
+      ],
+      "contact": "sneksnarc@gmail.com (réservation)",
+      "affiches": [
+        "affiches/changer-la-fin.jpg"
+      ],
+      "tags": [
+        "cinéma",
+        "festival"
+      ]
+    },
+    {
+      "id": "2026-11-21-tulle-festival-changer-la-fin-3-po",
+      "date": "2026-11-21",
+      "debut": "10:00",
+      "fin": "23:00",
+      "titre": "Festival Changer la fin #3 · Pour une paix révolutionnaire",
+      "type": "festival",
+      "lieu": "Salle Latreille",
+      "ville": "Tulle",
+      "departement": "19",
+      "organisateur": "Festival Changer la fin",
+      "description": "Festival de films « Changer la fin » #3, du vendredi 20 au dimanche 22 novembre, salle Latreille (impasse Latreille), Tulle. Séances à prix libre au profit des artistes (défraiement des déplacements, repas, boissons, hébergements), de PalMed (Palestine Medical) et de Corrèze Solidarité (collectif de soutien aux personnes exilées).\n\nMarché anticapitaliste en continu, 10h – 20h, salle Latreille (bas).",
+      "programme": [
+        {
+          "h": "10h",
+          "t": "NOUS SOMMES DES CHAMPS DE BATAILLE, Mathieu Rigouste (2025, 90’). Échange animé par Les Soulèvements de la terre 19"
+        },
+        {
+          "h": "13h30",
+          "t": "LA TERRE DU MILIEU, Juliette Guignard (2020, 56’)"
+        },
+        {
+          "h": "14h30",
+          "t": "Discussion libre « Non au Mordor climatique » (60’), animée par l’association L’Écherelée en présence de maraîcher·es et paysan·nes bio de Corrèze"
+        },
+        {
+          "h": "16h",
+          "t": "À L’ASSAUT DU CIEL, CUBA OU LA SOLIDARITÉ ANTI-IMPÉRIALISTE, La Brèche (2026, 70’). En présence de membres de La Brèche (association au positionnement marxiste assumé, regroupant trois médias engagés dans l’analyse politique et l’action militante : Paduteam, Positions Revue, OnNeVeutPlus)"
+        },
+        {
+          "h": "18h30",
+          "t": "INTERSECTING MEMORIES, Shayma’ Awawdeh (2025, 21’, anglais sous-titré français)"
+        },
+        {
+          "h": "20h30",
+          "t": "RÉSISTER POUR EXISTER, Yacine Helali (2026, 61’). Échange animé par l’Association France Palestine Solidarité 19, en présence de Yacine Helali et d’Omar Alsoumi, autour du film et du livre « Enfant de Palestine »"
+        },
+        {
+          "h": "23h",
+          "t": "MICRO OUVERT : graines de résistance"
+        }
+      ],
+      "infos": [
+        "Buvette et restauration sur place, locale et végétarienne (brasserie de la Vézère, Panache, Réseau S.A.F.E., Cou-Cook, Le Chaplati)",
+        "Plus d’infos sur Facebook et Instagram : Changer la fin"
+      ],
+      "contact": "sneksnarc@gmail.com (réservation)",
+      "affiches": [
+        "affiches/changer-la-fin.jpg"
+      ],
+      "tags": [
+        "cinéma",
+        "festival",
+        "Palestine"
+      ]
+    },
+    {
+      "id": "2026-11-21-tulle-marche-anticapitaliste-100-g",
+      "date": "2026-11-21",
+      "debut": "10:00",
+      "fin": "20:00",
+      "titre": "Marché anticapitaliste · 100 % gratuit",
+      "type": "festival",
+      "lieu": "Salle Latreille",
+      "ville": "Tulle",
+      "departement": "19",
+      "organisateur": "Festival Changer la fin",
+      "description": "Le système capitaliste nous vend une illusion : celle que notre valeur se mesure à ce que nous achetons, et que notre bonheur dépend de l’accumulation de biens matériels.\n\nIci, pas d’argent, pas de troc, pas de carte bancaire : tout est 100 % gratuit. Un espace éphémère pour casser le rythme infernal de la surconsommation, lutter contre le gaspillage et expérimenter la solidarité. Ce qui est superflu pour l’un devient une ressource pour l’autre : nous luttons contre le gaspillage en remettant en circulation ce qui a déjà été produit.\n\nVous pouvez déposer et/ou prendre tout ce qui est encore en bon état et utilisable : culture & loisirs (livres, BD, jeux de société, puzzles, CD/vinyles, matériel de loisirs créatifs…) ; vêtements & accessoires (vêtements propres et en bon état, adultes et enfants, chaussures, sacs, bijoux…) ; maison & vie quotidienne (vaisselle, ustensiles de cuisine, petit électroménager fonctionnel, linge de maison, décoration…) ; jardin & bricolage (outils, pots de fleurs, graines…).\n\nMerci de ne pas apporter de vêtements usés/troués, de sous-vêtements portés, de matériel dangereux ou d’objets hors d’usage.",
+      "infos": [
+        "1. Je trie : je sélectionne chez moi ce qui dort dans mes placards mais qui peut encore faire le bonheur de quelqu’un d’autre.",
+        "2. Je dépose (ou je viens les mains vides) : l’abondance est partagée collectivement.",
+        "3. Je prends : je repars avec ce qui m’est utile ou me fait plaisir, sans culpabilité ni contrepartie."
+      ],
+      "affiches": [
+        "affiches/marche-anticapitaliste.jpg"
+      ],
+      "tags": [
+        "gratuité",
+        "anticapitalisme"
+      ]
+    },
+    {
+      "id": "2026-11-22-tulle-festival-changer-la-fin-3-fo",
+      "date": "2026-11-22",
+      "debut": "10:00",
+      "fin": "21:45",
+      "titre": "Festival Changer la fin #3 · Folie et résistance",
+      "type": "festival",
+      "lieu": "Salle Latreille",
+      "ville": "Tulle",
+      "departement": "19",
+      "organisateur": "Festival Changer la fin",
+      "description": "Festival de films « Changer la fin » #3, du vendredi 20 au dimanche 22 novembre, salle Latreille (impasse Latreille), Tulle. Séances à prix libre au profit des artistes (défraiement des déplacements, repas, boissons, hébergements), de PalMed (Palestine Medical) et de Corrèze Solidarité (collectif de soutien aux personnes exilées).\n\nMarché anticapitaliste en continu, salle Latreille (bas).",
+      "programme": [
+        {
+          "h": "10h",
+          "t": "PERSPECTIVE(S) VUE(S) D’ICI, compagnie Le Pied Levé (2026, 24’). En présence de danseur·euses de la compagnie et d’habitant·es de la cité de Bournazel de Tulle"
+        },
+        {
+          "h": "11h30",
+          "t": "AGNÈS ET ANYA, Hélène Baril (2026, France, 30’). Musique de KinetoniK, jouée en direct pendant la projection. En présence de la réalisatrice, des actrices et du compositeur"
+        },
+        {
+          "h": "13h30",
+          "t": "ARGUMENTS, Olivier Zabat (2019, 107’, anglais sous-titré français). Rendez-vous à la table ronde de 17h30"
+        },
+        {
+          "h": "16h",
+          "t": "QUELLE FOLIE, Diego Governatori (2019, 87’)"
+        },
+        {
+          "h": "17h30 – 19h",
+          "t": "TABLE RONDE : FOLIE ET RÉSISTANCE (90’)"
+        },
+        {
+          "h": "20h30",
+          "t": "SINGLE, Maryline Lagrafeuil et Sébastien Chadelaud (comédie musicale, 1h15)"
+        }
+      ],
+      "infos": [
+        "Buvette et restauration sur place, locale et végétarienne (brasserie de la Vézère, Panache, Réseau S.A.F.E., Cou-Cook, Le Chaplati)",
+        "Plus d’infos sur Facebook et Instagram : Changer la fin"
+      ],
+      "contact": "sneksnarc@gmail.com (réservation)",
+      "affiches": [
+        "affiches/changer-la-fin.jpg"
+      ],
+      "tags": [
+        "cinéma",
+        "festival"
+      ]
+    },
+    {
+      "id": "2026-11-22-tulle-marche-anticapitaliste-100-g",
+      "date": "2026-11-22",
+      "debut": null,
+      "fin": null,
+      "titre": "Marché anticapitaliste · 100 % gratuit",
+      "type": "festival",
+      "lieu": "Salle Latreille",
+      "ville": "Tulle",
+      "departement": "19",
+      "organisateur": "Festival Changer la fin",
+      "description": "Le système capitaliste nous vend une illusion : celle que notre valeur se mesure à ce que nous achetons, et que notre bonheur dépend de l’accumulation de biens matériels.\n\nIci, pas d’argent, pas de troc, pas de carte bancaire : tout est 100 % gratuit. Un espace éphémère pour casser le rythme infernal de la surconsommation, lutter contre le gaspillage et expérimenter la solidarité. Ce qui est superflu pour l’un devient une ressource pour l’autre : nous luttons contre le gaspillage en remettant en circulation ce qui a déjà été produit.\n\nVous pouvez déposer et/ou prendre tout ce qui est encore en bon état et utilisable : culture & loisirs (livres, BD, jeux de société, puzzles, CD/vinyles, matériel de loisirs créatifs…) ; vêtements & accessoires (vêtements propres et en bon état, adultes et enfants, chaussures, sacs, bijoux…) ; maison & vie quotidienne (vaisselle, ustensiles de cuisine, petit électroménager fonctionnel, linge de maison, décoration…) ; jardin & bricolage (outils, pots de fleurs, graines…).\n\nMerci de ne pas apporter de vêtements usés/troués, de sous-vêtements portés, de matériel dangereux ou d’objets hors d’usage.",
+      "infos": [
+        "1. Je trie : je sélectionne chez moi ce qui dort dans mes placards mais qui peut encore faire le bonheur de quelqu’un d’autre.",
+        "2. Je dépose (ou je viens les mains vides) : l’abondance est partagée collectivement.",
+        "3. Je prends : je repars avec ce qui m’est utile ou me fait plaisir, sans culpabilité ni contrepartie."
+      ],
+      "a_confirmer": "Horaires du dimanche à préciser",
+      "affiches": [
+        "affiches/marche-anticapitaliste.jpg"
+      ],
+      "tags": [
+        "gratuité",
+        "anticapitalisme"
+      ]
+    },
+    {
+      "id": "2026-11-24-limoges-formation-syndicale-solidair",
+      "date": "2026-11-24",
+      "debut": "08:30",
+      "fin": "17:00",
+      "titre": "Formation syndicale Solidaires 87 : l’EVARS pour prévenir les violences sexistes et sexuelles (VSS)",
+      "type": "atelier",
+      "lieu": "Cité scolaire Limousin",
+      "ville": "Limoges",
+      "departement": "87",
+      "organisateur": "Solidaires 87",
+      "description": "L’éducation à la vie affective, relationnelle et sexuelle (EVARS) vise à générer des rapports humains de qualité, des relations égalitaires dénuées de sexisme et de préjugés, pour construire une société plus inclusive. Le CESE a adopté en septembre 2024 son rapport et son avis « Éduquer à la vie affective, relationnelle et sexuelle ».\n\nL’EVARS est avant tout une éducation à l’égalité qui déconstruit les stéréotypes et les normes sociales inégalitaires entre les individus. Point de convergence entre les droits des femmes et les droits des enfants, elle peut déconstruire les schémas toxiques, aider à enrayer la montée des violences sexuelles, du sexisme et des LGBTQIAphobies, contribuer à une meilleure prévention des maladies sexuellement transmissibles et de la transmission du VIH, et, à l’école, amener au repérage d’enfants victimes d’abus sexuels.",
+      "programme": [
+        {
+          "h": "Matin",
+          "t": "Conférence-débat avec les co-rapporteureuses du Conseil économique, social et environnemental (CESE) : Cécile Gondard-Lalanne (Groupe Alternatives sociales et écologiques) et Evanne Jeanne-Rose (Groupe des Organisations étudiantes et des mouvements de jeunesse)"
+        },
+        {
+          "h": "Midi",
+          "t": "Repas sur place"
+        },
+        {
+          "h": "Après-midi",
+          "t": "Ateliers participatifs pour repartir outillé·es, avec la participation du Planning familial : exemples de pratiques de séances d’EVARS ; présentation de l’éducation populaire et de ses techniques pouvant facilement être utilisées ; jeux de société militants"
+        }
+      ],
+      "contact": "formation@solidaires87.org · 06 89 86 24 96 · inscription par QR code sur l’affiche",
+      "affiches": [
+        "affiches/solidaires87-evars-1.jpg",
+        "affiches/solidaires87-evars-2.jpg"
+      ],
+      "tags": [
+        "syndicat",
+        "féminisme",
+        "formation"
+      ]
+    },
+    {
+      "id": "2026-11-25-limoges-journee-internationale-de-lu",
+      "date": "2026-11-25",
+      "debut": "16:00",
+      "fin": "19:45",
+      "titre": "Journée internationale de lutte contre les violences sexistes et sexuelles",
+      "type": "rencontre",
+      "lieu": "Place d’Aine",
+      "ville": "Limoges",
+      "departement": "87",
+      "organisateur": "Collectif 8 mars 87",
+      "programme": [
+        {
+          "h": "16h – 18h30",
+          "t": "Espace d’information, de partage et de recueil collectif"
+        },
+        {
+          "h": "16h30 – 17h",
+          "t": "Débat mouvant sur des qualifications juridiques des VSS"
+        },
+        {
+          "h": "17h – 18h",
+          "t": "Atelier chant"
+        },
+        {
+          "h": "18h30 – 19h45",
+          "t": "Prise de parole du collectif 8 mars 87, restitution de l’atelier chant et performance artistique féministe"
+        }
+      ],
+      "infos": [
+        "À 20h : conférence-débat « Femmes et exil : parcours de violences »"
+      ],
+      "affiches": [
+        "affiches/vss-limoges.jpg"
+      ],
+      "tags": [
+        "féminisme"
+      ]
+    },
+    {
+      "id": "2026-11-25-limoges-conference-debat-femmes-et-e",
+      "date": "2026-11-25",
+      "debut": "20:00",
+      "fin": null,
+      "titre": "Conférence-débat « Femmes et exil : parcours de violences »",
+      "type": "rencontre",
+      "lieu": "Salle Jean Montalat, 15 rue Jean Montalat (Beaubreuil, bus 10)",
+      "ville": "Limoges",
+      "departement": "87",
+      "organisateur": "Chabatz d’entrar, avec le soutien du collectif 8 mars",
+      "description": "Organisée dans le cadre de la journée internationale de lutte contre les violences faites aux femmes. Avec : Delphine d’Allivy-Kelly, avocate, membre du Gisti ; Solange Van Beest-Mahié, juriste auprès du CIDFF ; Marie Jeanne Vaugoyeau et Martine Panardie du Planning familial.\n\nCIDFF Limousin : centre d’information sur le droit des femmes et des familles. Gisti : groupe d’information et de soutien des immigrés. Planning familial : mouvement féministe d’éducation populaire.",
+      "contact": "chabatzdentrar@riseup.net",
+      "lien": {
+        "url": "https://facebook.com/collectifchabatzdentrar/",
+        "texte": "Facebook Chabatz d’entrar"
+      },
+      "a_confirmer": "Salle à confirmer (« salle reste à définir » sur l’affiche)",
+      "affiches": [
+        "affiches/chabatz-femmes-exil.jpg"
+      ],
+      "tags": [
+        "féminisme",
+        "migrations"
+      ]
+    },
+    {
+      "id": "2026-11-26-saint-solve-la-passion-de-la-liberte-une",
+      "date": "2026-11-26",
+      "debut": "18:30",
+      "fin": null,
+      "titre": "La passion de la liberté – Une histoire populaire de la Grèce",
+      "type": "projection",
+      "lieu": "Salle polyvalente derrière la mairie",
+      "ville": "Saint-Solve",
+      "departement": "19",
+      "organisateur": "Collectif citoyen Vigilance et Initiatives",
+      "description": "Projection-débat en présence du réalisateur, Yannis Youlountas. Prix libre.",
+      "programme": [
+        {
+          "h": "18h30",
+          "t": "Rencontrons-nous autour d’un verre"
+        },
+        {
+          "h": "19h30",
+          "t": "Le film suivi d’un débat"
+        }
+      ],
+      "affiches": [
+        "affiches/passion-liberte.jpg"
+      ],
+      "tags": [
+        "Grèce",
+        "luttes"
+      ]
+    },
+    {
+      "id": "2026-11-28-x-grande-assemblee-syndicale-s",
+      "date": "2026-11-28",
+      "debut": "14:00",
+      "fin": "18:00",
+      "titre": "Grande assemblée syndicale · Syndicat de la Montagne Limousine",
+      "type": "rencontre",
+      "lieu": "",
+      "ville": "",
+      "departement": "",
+      "organisateur": "Syndicat de la Montagne Limousine",
+      "description": "« Dans l’élan du soulèvement, forgeons des armes de construction massive. »",
+      "a_confirmer": "Lieu à préciser",
+      "affiches": [
+        "affiches/assemblee-syndicale.jpg"
+      ],
+      "tags": [
+        "syndicat"
+      ]
+    },
+    {
+      "id": "2026-11-28-faux-la-montagne-tele-millevaches-fete-ses-40",
+      "date": "2026-11-28",
+      "debut": null,
+      "fin": null,
+      "titre": "Télé Millevaches fête ses 40 ans · Grosse teuf !",
+      "type": "soiree",
+      "lieu": "Salle des fêtes",
+      "ville": "Faux-la-Montagne",
+      "departement": "19",
+      "organisateur": "Télé Millevaches",
+      "description": "Le plateau du Plateau ! Un plateau spécial pour l’événement : quiz, concours de doublage + surprises ! En concert : Les Rézisterz, girls band mixte en rouge et noir (chanson militante festive pour danser et chanter). DJ Biche : set électrique dansant, house, électro. Entrée à prix libre, buvette + cantine sur place.",
+      "a_confirmer": "Horaire à préciser",
+      "affiches": [
+        "affiches/tele-millevaches.jpg"
+      ],
+      "tags": [
+        "fête",
+        "Télé Millevaches"
+      ]
+    }
+  ]
+}
