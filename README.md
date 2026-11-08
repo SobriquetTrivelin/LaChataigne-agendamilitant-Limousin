@@ -2,7 +2,7 @@
 
 > l'Agenda militant Limousin qui ne manque pas de piquants !
 
-Une petite appli web (PWA) **sans serveur, sans base de données, sans pistage** :
+Une petite appli web (PWA) **sans serveur, sans base de données, sans pistage (attention néanmoins, l’hébergeur voit tout de même les adresses IP des visiteur.es dans ses journaux).** :
 
 * une page installable sur téléphone (hors-ligne), avec recherche, filtres par département et par type,
 « ajouter à mon agenda » pour chaque événement, partage, affiches ;
@@ -107,8 +107,8 @@ Le fichier `docs/data/evenements.schema.json` décrit ce format (autocomplétion
 ### Texte-guide pour convertir un agenda avec un assistant IA (mais à éviter de préférence parce que bon l'IA…)
 
 > Voici l'agenda militant de \[mois année] (texte joint) et les affiches. Convertis chaque événement en objet JSON
-> au format de `docs/data/evenements.json` (champs : id, date, debut, fin, titre, type, lieu, ville, departement,
-> organisateur, description, programme, infos, contact, lien, affiches, tags, a\_confirmer). Règles : un objet par date
+> au format de `docs/data/evenements.json` (champs : id, date, debut, fin, titre, type, lieu, ville, département,
+> organisateur.ice, description, programme, infos, contact, lien, affiches, tags, a\_confirmer). Règles : un objet par date
 > et par lieu ; heures en `HH:MM` ; n'invente rien (laisse vide ou utilise `a\_confirmer` si une info manque) ;
 > reprends fidèlement les textes ; ids stables du type `AAAA-MM-JJ-ville-mots-cles`.
 
@@ -127,7 +127,7 @@ Vide, le lien n'apparaît pas. `depot\_url` ajoute le lien « code source » en 
 
 ## Vie privée
 
-Aucun cookie, aucun traceur, aucune statistique, aucune ressource externe : polices du système, icônes locales.
+Aucun cookie, aucun traceur (attention néanmoins, l’hébergeur voit tout de même les adresses IP des visiteur.es dans ses journaux), aucune statistique, aucune ressource externe : polices du système, icônes locales.
 Les données restent dans le navigateur (cache hors-ligne).
 
 ## Licences
