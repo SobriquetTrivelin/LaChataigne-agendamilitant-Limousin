@@ -1,6 +1,6 @@
 /* La Châtaigne — service worker : fonctionne hors-ligne. La version est mise à jour
    automatiquement par tools/build.py (ne pas modifier à la main). Licence : AGPL-3.0-or-later. */
-const VERSION = '87af50a596';
+const VERSION = '2bdbdc433a';
 const CACHE = 'chataigne-' + VERSION;
 const COQUILLE = ['./', 'index.html', 'style.css', 'app.js', 'ics.js', 'manifest.webmanifest',
   'icons/chataigne.svg', 'icons/icon-192.png', 'icons/icon-512.png', 'data/config.json'];
@@ -33,7 +33,7 @@ self.addEventListener('fetch', (event) => {
   const req = event.request;
   const url = new URL(req.url);
   if (req.method !== 'GET' || url.origin !== self.location.origin) return;
-  const frais = url.pathname.endsWith('/evenements.json') || url.pathname.endsWith('/agenda.ics');
+  const frais = url.pathname.endsWith('/evenements.json') || url.pathname.endsWith('/config.json') || url.pathname.endsWith('/agenda.ics');
   event.respondWith((async () => {
     const cache = await caches.open(CACHE);
     if (frais) {                       // réseau d'abord : on veut les nouveautés du mois

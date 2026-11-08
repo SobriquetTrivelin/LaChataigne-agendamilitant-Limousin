@@ -8,6 +8,7 @@
   :root{--fond:#141414; --texte:#eee; --carte:#1d1d1d; --filet:#333; --gris:#b0b0b0; --rouge:#ff5a70; --lien:#ff8a9a; --creme:#2b2410}
 }
 *{box-sizing:border-box}
+[hidden]{display:none!important}
 html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--fond);color:var(--texte);font:16px/1.5 var(--police);
   padding:env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
